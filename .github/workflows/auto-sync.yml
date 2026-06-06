@@ -51,4 +51,5 @@ jobs:
       - name: Commit and push
         if: success()
         run: |
-          git config --local user.
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+
