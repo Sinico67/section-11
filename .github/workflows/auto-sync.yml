@@ -42,7 +42,7 @@ jobs:
           INTERVALS_KEY: ${{ secrets.INTERVALS_KEY }}
           GITHUB_REPO: ${{ github.repository }}
         run: |
-          python sync.py \
+          python examples/sync.py \
             --athlete-id "$ATHLETE_ID" \
             --intervals-key "$INTERVALS_KEY" \
             --days 7 \
