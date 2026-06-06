@@ -1,0 +1,54 @@
+name: Auto-Sync Intervals.icu Data
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Verify secrets are set
+        run: |
+          if [ -z "${{ secrets.ATHLETE_ID }}" ]; then
+            echo "❌ ERROR: ATHLETE_ID secret not set!"
+            exit 1
+          fi
+          if [ -z "${{ secrets.INTERVALS_KEY }}" ]; then
+            echo "❌ ERROR: INTERVALS_KEY secret not set!"
+            exit 1
+          fi
+          echo "✅ All secrets configured"
+
+      - name: Run sync
+        env:
+          ATHLETE_ID: ${{ secrets.ATHLETE_ID }}
+          INTERVALS_KEY: ${{ secrets.INTERVALS_KEY }}
+          GITHUB_REPO: ${{ github.repository }}
+        run: |
+          python sync.py \
+            --athlete-id "$ATHLETE_ID" \
+            --intervals-key "$INTERVALS_KEY" \
+            --days 7 \
+            --output latest.json
+
+      - name: Commit and push
+        if: success()
+        run: |
+          git config --local user.
