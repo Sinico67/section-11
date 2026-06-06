@@ -52,6 +52,7 @@ jobs:
         if: success()
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           git add latest.json
           git commit -m "Sync: $(date -u +%Y-%m-%dT%H:%M:%SZ)" || echo "Nothing to commit"
           git push
