@@ -62,15 +62,15 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 4.08,
-      "total_training_formatted": "4h4m",
-      "total_activities": 3,
+      "total_training_hours": 5.12,
+      "total_training_formatted": "5h7m",
+      "total_activities": 4,
       "total_tss": 72
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-08T00:11:11.513420",
+    "last_updated": "2026-06-08T05:02:52.739384",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -172,17 +172,17 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 4.08,
-    "total_activities": 3,
+    "total_duration_decimal_hours": 5.12,
+    "total_activities": 4,
     "by_activity_type": {
       "VirtualRide": {
-        "duration_decimal_hours": 4.08,
-        "count": 3,
+        "duration_decimal_hours": 5.12,
+        "count": 4,
         "tss": 72,
-        "distance_km": 88.0,
+        "distance_km": 113.9,
         "display": {
           "distance": {
-            "value": 88.0,
+            "value": 113.9,
             "unit": "km"
           }
         }
@@ -260,7 +260,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 398,
+      "steps": 2804,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -636,12 +636,12 @@
     "p_max": 563,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-08T00:11:11.512250",
+    "calculation_timestamp": "2026-06-08T05:02:52.738121",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
-      "activities_7d": 3,
-      "activities_28d": 26,
+      "activities_7d": 4,
+      "activities_28d": 27,
       "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 0,
@@ -650,6 +650,62 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "i155188519",
+      "date": "2026-06-08T07:18:11",
+      "type": "VirtualRide",
+      "name": "Indoor Cycling",
+      "duration_hours": 1.04,
+      "distance_km": 25.95,
+      "tss": null,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": 24.9,
+      "avg_speed_unit": "KPH",
+      "max_speed": 24.9,
+      "max_speed_unit": "KPH",
+      "avg_pace": null,
+      "avg_temp": null,
+      "avg_temp_unit": "C",
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "wind_speed_unit": "KMH",
+      "work_kj": null,
+      "calories": 349,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": null,
+      "display": {
+        "distance": {
+          "value": 25.95,
+          "unit": "km"
+        },
+        "elevation": null,
+        "avg_speed": {
+          "value": 24.9,
+          "unit": "km/h"
+        },
+        "max_speed": {
+          "value": 24.9,
+          "unit": "km/h"
+        }
+      },
+      "feel": null,
+      "rpe": null,
+      "effort_response": null,
+      "zone_distribution": null,
+      "has_intervals": false,
+      "has_dfa": false
+    },
     {
       "id": "i155176824",
       "date": "2026-06-08T07:18:11",
@@ -2659,7 +2715,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 3984,
+      "steps": 2869,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2701,7 +2757,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 398,
+      "steps": 2804,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2722,10 +2778,10 @@
     "bail_no_match": 0
   },
   "weekly_summary": {
-    "total_training_hours": 4.08,
-    "total_training_formatted": "4h4m",
+    "total_training_hours": 5.12,
+    "total_training_formatted": "5h7m",
     "total_tss": 72,
-    "activities_count": 3,
+    "activities_count": 4,
     "avg_hrv": 29.0,
     "avg_resting_hr": 62.0
   },
