@@ -62,15 +62,15 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 6.86,
-      "total_training_formatted": "6h51m",
-      "total_activities": 8,
+      "total_training_hours": 2.8,
+      "total_training_formatted": "2h48m",
+      "total_activities": 4,
       "total_tss": 118
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-15T19:56:34.889228",
+    "last_updated": "2026-06-15T22:23:07.160812",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -124,7 +124,7 @@
       },
       "acwr": {
         "status": "green",
-        "value": 1.09
+        "value": 1.14
       },
       "ri": {
         "status": "green",
@@ -133,7 +133,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -0.6
+        "value": -0.7
       }
     },
     "signal_summary": {
@@ -172,17 +172,17 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 6.86,
-    "total_activities": 8,
+    "total_duration_decimal_hours": 2.8,
+    "total_activities": 4,
     "by_activity_type": {
       "VirtualRide": {
-        "duration_decimal_hours": 6.86,
-        "count": 8,
+        "duration_decimal_hours": 2.8,
+        "count": 4,
         "tss": 118,
-        "distance_km": 207.5,
+        "distance_km": 86.7,
         "display": {
           "distance": {
-            "value": 207.5,
+            "value": 86.7,
             "unit": "km"
           }
         }
@@ -191,15 +191,15 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 13.47,
-      "atl": 14.09,
-      "tsb": -0.62,
-      "ramp_rate": 0.54,
+      "ctl": 13.12,
+      "atl": 13.83,
+      "tsb": -0.71,
+      "ramp_rate": 0.6,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
-      "eftp": 199.0,
-      "w_prime": 16627,
+      "eftp": 198.6,
+      "w_prime": 16594,
       "w_prime_kj": 16.6,
       "p_max": 682,
       "vo2max": null,
@@ -280,7 +280,7 @@
     "rhr_baseline_28d": 62.6,
     "latest_hrv": 27.0,
     "latest_rhr": 64,
-    "acwr": 1.09,
+    "acwr": 1.14,
     "acwr_interpretation": "optimal",
     "monotony": 1.05,
     "monotony_interpretation": "normal",
@@ -293,67 +293,67 @@
     "stress_tolerance": 1.2,
     "load_recovery_ratio": 1.3,
     "tss_7d_total": 118.0,
-    "tss_28d_total": 435.0,
+    "tss_28d_total": 413.0,
     "zone_distribution_7d": {
-      "z1_hours": 1.48,
+      "z1_hours": 1.38,
       "z2_hours": 1.17,
       "z3_hours": 0.13,
       "z4_plus_hours": 0.13,
-      "total_hours": 2.9,
-      "zone_basis": "mixed"
+      "total_hours": 2.8,
+      "zone_basis": "power"
     },
-    "grey_zone_percentage": 4.4,
+    "grey_zone_percentage": 4.5,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
-    "quality_intensity_percentage": 4.3,
+    "quality_intensity_percentage": 4.5,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
     "easy_time_ratio": 0.91,
     "easy_time_ratio_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
     "hard_days_this_week": 0,
     "hard_days_note": "Power ladder: z3+ >= 30min, z4+ >= 10min, z5+ >= 5min, z6+ >= 2min, z7 >= 1min. HR fallback (when no power): z4+ >= 10min, z5+ >= 5min. Per Seiler 3-zone model + Foster. HR-based days flagged with intensity_basis: hr",
     "seiler_tid_7d": {
-      "z1_seconds": 9532,
+      "z1_seconds": 9184,
       "z2_seconds": 459,
       "z3_seconds": 454,
-      "z1_pct": 91.3,
-      "z2_pct": 4.4,
-      "z3_pct": 4.3,
+      "z1_pct": 91.0,
+      "z2_pct": 4.5,
+      "z3_pct": 4.5,
       "polarization_index": null,
       "classification": "Pyramidal",
-      "zone_basis": "mixed"
+      "zone_basis": "power"
     },
     "seiler_tid_7d_primary": {
-      "z1_seconds": 9532,
+      "z1_seconds": 9184,
       "z2_seconds": 459,
       "z3_seconds": 454,
-      "z1_pct": 91.3,
-      "z2_pct": 4.4,
-      "z3_pct": 4.3,
+      "z1_pct": 91.0,
+      "z2_pct": 4.5,
+      "z3_pct": 4.5,
       "polarization_index": null,
       "classification": "Pyramidal",
-      "zone_basis": "mixed",
+      "zone_basis": "power",
       "sport": "cycling"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 35841,
-      "z2_seconds": 2204,
-      "z3_seconds": 1449,
-      "z1_pct": 90.8,
+      "z1_seconds": 34087,
+      "z2_seconds": 2072,
+      "z3_seconds": 1136,
+      "z1_pct": 91.4,
       "z2_pct": 5.6,
-      "z3_pct": 3.7,
+      "z3_pct": 3.0,
       "polarization_index": null,
       "classification": "Pyramidal",
       "zone_basis": "mixed"
     },
     "seiler_tid_28d_primary": {
-      "z1_seconds": 35118,
-      "z2_seconds": 2204,
-      "z3_seconds": 1449,
-      "z1_pct": 90.6,
-      "z2_pct": 5.7,
-      "z3_pct": 3.7,
+      "z1_seconds": 33846,
+      "z2_seconds": 2072,
+      "z3_seconds": 1136,
+      "z1_pct": 91.3,
+      "z2_pct": 5.6,
+      "z3_pct": 3.1,
       "polarization_index": null,
       "classification": "Pyramidal",
-      "zone_basis": "mixed",
+      "zone_basis": "power",
       "sport": "cycling"
     },
     "capability": {
@@ -566,7 +566,7 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 200,
-          "w_prime_used": 16627,
+          "w_prime_used": 16594,
           "ftp_staleness_days": 0,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -588,8 +588,8 @@
       ],
       "basis": {
         "stream_1": {
-          "ctl_slope": 0.05,
-          "acwr_trend": "falling",
+          "ctl_slope": 0.1,
+          "acwr_trend": "stable",
           "hard_day_pattern": 0.3,
           "weeks_available": 4
         },
@@ -630,18 +630,18 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 199.0,
-    "w_prime": 16627,
+    "eftp": 198.6,
+    "w_prime": 16594,
     "w_prime_kj": 16.6,
     "p_max": 682,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-15T19:56:34.887818",
+    "calculation_timestamp": "2026-06-15T22:23:07.159985",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 7,
-      "activities_7d": 8,
-      "activities_28d": 30,
+      "activities_7d": 4,
+      "activities_28d": 13,
       "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 0,
@@ -807,131 +807,6 @@
       "has_dfa": false
     },
     {
-      "id": "i155923639",
-      "date": "2026-06-10T07:08:32",
-      "type": "VirtualRide",
-      "name": "Indoor Cycling",
-      "duration_hours": 1.16,
-      "distance_km": 37.1,
-      "tss": 0,
-      "intensity_factor": 0.0,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": 86,
-      "max_hr": 113,
-      "avg_cadence": null,
-      "avg_speed": 31.9,
-      "avg_speed_unit": "KPH",
-      "max_speed": 41.3,
-      "max_speed_unit": "KPH",
-      "avg_pace": null,
-      "avg_temp": null,
-      "avg_temp_unit": "C",
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "wind_speed_unit": "KMH",
-      "work_kj": null,
-      "calories": 408,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": 59.0,
-      "display": {
-        "distance": {
-          "value": 37.1,
-          "unit": "km"
-        },
-        "elevation": {
-          "value": 59,
-          "unit": "m"
-        },
-        "avg_speed": {
-          "value": 31.9,
-          "unit": "km/h"
-        },
-        "max_speed": {
-          "value": 41.3,
-          "unit": "km/h"
-        }
-      },
-      "feel": null,
-      "rpe": null,
-      "effort_response": null,
-      "zone_distribution": {
-        "hr_zones": {
-          "z1_time": 210,
-          "z2_time": 0,
-          "z3_time": 0,
-          "z4_time": 0,
-          "z5_time": 0,
-          "z6_time": 0,
-          "z7_time": 0
-        }
-      },
-      "has_intervals": false,
-      "has_dfa": false
-    },
-    {
-      "id": "i155914965",
-      "date": "2026-06-10T07:08:32",
-      "type": "VirtualRide",
-      "name": "Indoor Cycling",
-      "duration_hours": 1.35,
-      "distance_km": 37.1,
-      "tss": null,
-      "intensity_factor": null,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": null,
-      "max_hr": null,
-      "avg_cadence": null,
-      "avg_speed": 27.5,
-      "avg_speed_unit": "KPH",
-      "max_speed": 27.5,
-      "max_speed_unit": "KPH",
-      "avg_pace": null,
-      "avg_temp": null,
-      "avg_temp_unit": "C",
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "wind_speed_unit": "KMH",
-      "work_kj": null,
-      "calories": 408,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": null,
-      "display": {
-        "distance": {
-          "value": 37.1,
-          "unit": "km"
-        },
-        "elevation": null,
-        "avg_speed": {
-          "value": 27.5,
-          "unit": "km/h"
-        },
-        "max_speed": {
-          "value": 27.5,
-          "unit": "km/h"
-        }
-      },
-      "feel": null,
-      "rpe": null,
-      "effort_response": null,
-      "zone_distribution": null,
-      "has_intervals": false,
-      "has_dfa": false
-    },
-    {
       "id": "i155910710",
       "date": "2026-06-10T07:08:32",
       "type": "VirtualRide",
@@ -1000,134 +875,6 @@
           "z1_time": 2005,
           "z2_time": 2163,
           "z3_time": 8,
-          "z4_time": 0,
-          "z5_time": 0,
-          "z6_time": 0,
-          "z7_time": 0
-        }
-      },
-      "has_intervals": false,
-      "has_dfa": false
-    },
-    {
-      "id": "i155663590",
-      "date": "2026-06-09T07:06:48",
-      "type": "VirtualRide",
-      "name": "Indoor Cycling",
-      "duration_hours": 0.77,
-      "distance_km": 23.3,
-      "tss": null,
-      "intensity_factor": null,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": null,
-      "max_hr": null,
-      "avg_cadence": null,
-      "avg_speed": 30.3,
-      "avg_speed_unit": "KPH",
-      "max_speed": 42.6,
-      "max_speed_unit": "KPH",
-      "avg_pace": null,
-      "avg_temp": null,
-      "avg_temp_unit": "C",
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "wind_speed_unit": "KMH",
-      "work_kj": null,
-      "calories": 262,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": 38.0,
-      "display": {
-        "distance": {
-          "value": 23.3,
-          "unit": "km"
-        },
-        "elevation": {
-          "value": 38,
-          "unit": "m"
-        },
-        "avg_speed": {
-          "value": 30.3,
-          "unit": "km/h"
-        },
-        "max_speed": {
-          "value": 42.6,
-          "unit": "km/h"
-        }
-      },
-      "feel": null,
-      "rpe": null,
-      "effort_response": null,
-      "zone_distribution": null,
-      "has_intervals": false,
-      "has_dfa": false
-    },
-    {
-      "id": "i155567944",
-      "date": "2026-06-09T07:06:48",
-      "type": "VirtualRide",
-      "name": "Indoor Cycling",
-      "duration_hours": 0.77,
-      "distance_km": 23.3,
-      "tss": 0,
-      "intensity_factor": 0.0,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": 91,
-      "max_hr": 124,
-      "avg_cadence": null,
-      "avg_speed": 30.3,
-      "avg_speed_unit": "KPH",
-      "max_speed": 42.6,
-      "max_speed_unit": "KPH",
-      "avg_pace": null,
-      "avg_temp": null,
-      "avg_temp_unit": "C",
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "wind_speed_unit": "KMH",
-      "work_kj": null,
-      "calories": 262,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": 38.0,
-      "display": {
-        "distance": {
-          "value": 23.3,
-          "unit": "km"
-        },
-        "elevation": {
-          "value": 38,
-          "unit": "m"
-        },
-        "avg_speed": {
-          "value": 30.3,
-          "unit": "km/h"
-        },
-        "max_speed": {
-          "value": 42.6,
-          "unit": "km/h"
-        }
-      },
-      "feel": null,
-      "rpe": null,
-      "effort_response": null,
-      "zone_distribution": {
-        "hr_zones": {
-          "z1_time": 138,
-          "z2_time": 0,
-          "z3_time": 0,
           "z4_time": 0,
           "z5_time": 0,
           "z6_time": 0,
@@ -1216,62 +963,6 @@
       "has_dfa": false
     },
     {
-      "id": "i155188519",
-      "date": "2026-06-08T07:18:11",
-      "type": "VirtualRide",
-      "name": "Indoor Cycling",
-      "duration_hours": 1.04,
-      "distance_km": 25.95,
-      "tss": null,
-      "intensity_factor": null,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": null,
-      "max_hr": null,
-      "avg_cadence": null,
-      "avg_speed": 24.9,
-      "avg_speed_unit": "KPH",
-      "max_speed": 24.9,
-      "max_speed_unit": "KPH",
-      "avg_pace": null,
-      "avg_temp": null,
-      "avg_temp_unit": "C",
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "wind_speed_unit": "KMH",
-      "work_kj": null,
-      "calories": 349,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": null,
-      "display": {
-        "distance": {
-          "value": 25.95,
-          "unit": "km"
-        },
-        "elevation": null,
-        "avg_speed": {
-          "value": 24.9,
-          "unit": "km/h"
-        },
-        "max_speed": {
-          "value": 24.9,
-          "unit": "km/h"
-        }
-      },
-      "feel": null,
-      "rpe": null,
-      "effort_response": null,
-      "zone_distribution": null,
-      "has_intervals": false,
-      "has_dfa": false
-    },
-    {
       "id": "i155176824",
       "date": "2026-06-08T07:18:11",
       "type": "VirtualRide",
@@ -1346,62 +1037,6 @@
           "z7_time": 0
         }
       },
-      "has_intervals": false,
-      "has_dfa": false
-    },
-    {
-      "id": "i154436573",
-      "date": "2026-06-04T11:59:21",
-      "type": "VirtualRide",
-      "name": "Indoor Cycling",
-      "duration_hours": 2.16,
-      "distance_km": 31.01,
-      "tss": null,
-      "intensity_factor": null,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": null,
-      "max_hr": null,
-      "avg_cadence": null,
-      "avg_speed": 14.3,
-      "avg_speed_unit": "KPH",
-      "max_speed": 14.3,
-      "max_speed_unit": "KPH",
-      "avg_pace": null,
-      "avg_temp": null,
-      "avg_temp_unit": "C",
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "wind_speed_unit": "KMH",
-      "work_kj": null,
-      "calories": 350,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": null,
-      "display": {
-        "distance": {
-          "value": 31.01,
-          "unit": "km"
-        },
-        "elevation": null,
-        "avg_speed": {
-          "value": 14.3,
-          "unit": "km/h"
-        },
-        "max_speed": {
-          "value": 14.3,
-          "unit": "km/h"
-        }
-      },
-      "feel": null,
-      "rpe": null,
-      "effort_response": null,
-      "zone_distribution": null,
       "has_intervals": false,
       "has_dfa": false
     },
@@ -1484,75 +1119,6 @@
       "has_dfa": false
     },
     {
-      "id": "i152862981",
-      "date": "2026-05-31T14:22:50",
-      "type": "VirtualRide",
-      "name": "Indoor Cycling",
-      "duration_hours": 0.96,
-      "distance_km": 30.36,
-      "tss": 10,
-      "intensity_factor": 32.326347,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": 143,
-      "max_hr": 165,
-      "avg_cadence": null,
-      "avg_speed": 31.7,
-      "avg_speed_unit": "KPH",
-      "max_speed": 58.1,
-      "max_speed_unit": "KPH",
-      "avg_pace": null,
-      "avg_temp": null,
-      "avg_temp_unit": "C",
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "wind_speed_unit": "KMH",
-      "work_kj": null,
-      "calories": 395,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": 47.0,
-      "display": {
-        "distance": {
-          "value": 30.36,
-          "unit": "km"
-        },
-        "elevation": {
-          "value": 47,
-          "unit": "m"
-        },
-        "avg_speed": {
-          "value": 31.7,
-          "unit": "km/h"
-        },
-        "max_speed": {
-          "value": 58.1,
-          "unit": "km/h"
-        }
-      },
-      "feel": null,
-      "rpe": null,
-      "effort_response": null,
-      "zone_distribution": {
-        "hr_zones": {
-          "z1_time": 103,
-          "z2_time": 144,
-          "z3_time": 102,
-          "z4_time": 225,
-          "z5_time": 10,
-          "z6_time": 0,
-          "z7_time": 0
-        }
-      },
-      "has_intervals": false,
-      "has_dfa": false
-    },
-    {
       "id": "i152844268",
       "date": "2026-05-31T14:22:50",
       "type": "VirtualRide",
@@ -1579,7 +1145,7 @@
       "wind_speed_unit": "KMH",
       "work_kj": 414.7,
       "calories": 395,
-      "carbs_used": 113,
+      "carbs_used": 114,
       "carbs_ingested": null,
       "variability_index": 1.1083333,
       "decoupling": 14.338195,
@@ -1709,196 +1275,7 @@
       "has_dfa": false
     },
     {
-      "id": "i152686545",
-      "date": "2026-05-30T13:25:11",
-      "type": "VirtualRide",
-      "name": "Indoor Cycling",
-      "duration_hours": 0.7,
-      "distance_km": 21.54,
-      "tss": 4,
-      "intensity_factor": 23.819653,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": 135,
-      "max_hr": 167,
-      "avg_cadence": null,
-      "avg_speed": 30.5,
-      "avg_speed_unit": "KPH",
-      "max_speed": 44.7,
-      "max_speed_unit": "KPH",
-      "avg_pace": null,
-      "avg_temp": null,
-      "avg_temp_unit": "C",
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "wind_speed_unit": "KMH",
-      "work_kj": null,
-      "calories": 277,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": 33.0,
-      "display": {
-        "distance": {
-          "value": 21.54,
-          "unit": "km"
-        },
-        "elevation": {
-          "value": 33,
-          "unit": "m"
-        },
-        "avg_speed": {
-          "value": 30.5,
-          "unit": "km/h"
-        },
-        "max_speed": {
-          "value": 44.7,
-          "unit": "km/h"
-        }
-      },
-      "feel": null,
-      "rpe": null,
-      "effort_response": null,
-      "zone_distribution": {
-        "hr_zones": {
-          "z1_time": 108,
-          "z2_time": 90,
-          "z3_time": 6,
-          "z4_time": 24,
-          "z5_time": 12,
-          "z6_time": 6,
-          "z7_time": 0
-        }
-      },
-      "has_intervals": false,
-      "has_dfa": false
-    },
-    {
       "id": "i151866487",
-      "date": "2026-05-27T09:44:00",
-      "type": "WeightTraining",
-      "name": "Strength Training",
-      "duration_hours": 0.07,
-      "distance_km": 0.0,
-      "tss": 2,
-      "intensity_factor": null,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": 123,
-      "max_hr": 128,
-      "avg_cadence": null,
-      "avg_speed": null,
-      "avg_speed_unit": "KPH",
-      "max_speed": null,
-      "max_speed_unit": "KPH",
-      "avg_pace": null,
-      "avg_temp": null,
-      "avg_temp_unit": "C",
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "wind_speed_unit": "KMH",
-      "work_kj": null,
-      "calories": 35,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": null,
-      "display": {
-        "distance": {
-          "value": 0.0,
-          "unit": "km"
-        },
-        "elevation": null,
-        "avg_speed": null,
-        "max_speed": null
-      },
-      "feel": null,
-      "rpe": null,
-      "effort_response": null,
-      "zone_distribution": {
-        "hr_zones": {
-          "z1_time": 241,
-          "z2_time": 0,
-          "z3_time": 0,
-          "z4_time": 0,
-          "z5_time": 0,
-          "z6_time": 0,
-          "z7_time": 0
-        }
-      },
-      "has_intervals": false,
-      "has_dfa": false
-    },
-    {
-      "id": "i151808376",
-      "date": "2026-05-27T09:44:00",
-      "type": "WeightTraining",
-      "name": "Strength Training",
-      "duration_hours": 0.07,
-      "distance_km": 0.0,
-      "tss": 2,
-      "intensity_factor": null,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": 123,
-      "max_hr": 128,
-      "avg_cadence": null,
-      "avg_speed": null,
-      "avg_speed_unit": "KPH",
-      "max_speed": null,
-      "max_speed_unit": "KPH",
-      "avg_pace": null,
-      "avg_temp": null,
-      "avg_temp_unit": "C",
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "wind_speed_unit": "KMH",
-      "work_kj": null,
-      "calories": 35,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": null,
-      "display": {
-        "distance": {
-          "value": 0.0,
-          "unit": "km"
-        },
-        "elevation": null,
-        "avg_speed": null,
-        "max_speed": null
-      },
-      "feel": null,
-      "rpe": null,
-      "effort_response": null,
-      "zone_distribution": {
-        "hr_zones": {
-          "z1_time": 241,
-          "z2_time": 0,
-          "z3_time": 0,
-          "z4_time": 0,
-          "z5_time": 0,
-          "z6_time": 0,
-          "z7_time": 0
-        }
-      },
-      "has_intervals": false,
-      "has_dfa": false
-    },
-    {
-      "id": "i151808372",
       "date": "2026-05-27T09:44:00",
       "type": "WeightTraining",
       "name": "Strength Training",
@@ -2036,65 +1413,6 @@
       "has_dfa": false
     },
     {
-      "id": "i151562854",
-      "date": "2026-05-26T07:14:42",
-      "type": "VirtualRide",
-      "name": "Indoor Cycling",
-      "duration_hours": 1.16,
-      "distance_km": 35.77,
-      "tss": null,
-      "intensity_factor": null,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": null,
-      "max_hr": null,
-      "avg_cadence": null,
-      "avg_speed": 30.9,
-      "avg_speed_unit": "KPH",
-      "max_speed": 41.2,
-      "max_speed_unit": "KPH",
-      "avg_pace": null,
-      "avg_temp": null,
-      "avg_temp_unit": "C",
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "wind_speed_unit": "KMH",
-      "work_kj": null,
-      "calories": 403,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": 55.0,
-      "display": {
-        "distance": {
-          "value": 35.77,
-          "unit": "km"
-        },
-        "elevation": {
-          "value": 55,
-          "unit": "m"
-        },
-        "avg_speed": {
-          "value": 30.9,
-          "unit": "km/h"
-        },
-        "max_speed": {
-          "value": 41.2,
-          "unit": "km/h"
-        }
-      },
-      "feel": null,
-      "rpe": null,
-      "effort_response": null,
-      "zone_distribution": null,
-      "has_intervals": false,
-      "has_dfa": false
-    },
-    {
       "id": "i150708088",
       "date": "2026-05-23T13:13:52",
       "type": "VirtualRide",
@@ -2167,272 +1485,6 @@
           "z5_time": 10,
           "z6_time": 25,
           "z7_time": 100
-        }
-      },
-      "has_intervals": false,
-      "has_dfa": false
-    },
-    {
-      "id": "i150716594",
-      "date": "2026-05-23T13:13:52",
-      "type": "VirtualRide",
-      "name": "Indoor Cycling",
-      "duration_hours": 0.39,
-      "distance_km": 11.41,
-      "tss": null,
-      "intensity_factor": null,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": null,
-      "max_hr": null,
-      "avg_cadence": null,
-      "avg_speed": 29.4,
-      "avg_speed_unit": "KPH",
-      "max_speed": 48.1,
-      "max_speed_unit": "KPH",
-      "avg_pace": null,
-      "avg_temp": null,
-      "avg_temp_unit": "C",
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "wind_speed_unit": "KMH",
-      "work_kj": null,
-      "calories": 158,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": 20.0,
-      "display": {
-        "distance": {
-          "value": 11.41,
-          "unit": "km"
-        },
-        "elevation": {
-          "value": 20,
-          "unit": "m"
-        },
-        "avg_speed": {
-          "value": 29.4,
-          "unit": "km/h"
-        },
-        "max_speed": {
-          "value": 48.1,
-          "unit": "km/h"
-        }
-      },
-      "feel": null,
-      "rpe": null,
-      "effort_response": null,
-      "zone_distribution": null,
-      "has_intervals": false,
-      "has_dfa": false
-    },
-    {
-      "id": "i150947180",
-      "date": "2026-05-23T13:13:52",
-      "type": "VirtualRide",
-      "name": "Indoor Cycling",
-      "duration_hours": 0.39,
-      "distance_km": 11.41,
-      "tss": 2,
-      "intensity_factor": 22.710335,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": 133,
-      "max_hr": 162,
-      "avg_cadence": null,
-      "avg_speed": 29.4,
-      "avg_speed_unit": "KPH",
-      "max_speed": 48.1,
-      "max_speed_unit": "KPH",
-      "avg_pace": null,
-      "avg_temp": null,
-      "avg_temp_unit": "C",
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "wind_speed_unit": "KMH",
-      "work_kj": null,
-      "calories": 158,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": 20.0,
-      "display": {
-        "distance": {
-          "value": 11.41,
-          "unit": "km"
-        },
-        "elevation": {
-          "value": 20,
-          "unit": "m"
-        },
-        "avg_speed": {
-          "value": 29.4,
-          "unit": "km/h"
-        },
-        "max_speed": {
-          "value": 48.1,
-          "unit": "km/h"
-        }
-      },
-      "feel": null,
-      "rpe": null,
-      "effort_response": null,
-      "zone_distribution": {
-        "hr_zones": {
-          "z1_time": 69,
-          "z2_time": 38,
-          "z3_time": 24,
-          "z4_time": 30,
-          "z5_time": 6,
-          "z6_time": 0,
-          "z7_time": 0
-        }
-      },
-      "has_intervals": false,
-      "has_dfa": false
-    },
-    {
-      "id": "i150184462",
-      "date": "2026-05-21T12:24:51",
-      "type": "VirtualRide",
-      "name": "Indoor Cycling",
-      "duration_hours": 1.05,
-      "distance_km": 33.07,
-      "tss": 1,
-      "intensity_factor": 9.764169,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": 99,
-      "max_hr": 123,
-      "avg_cadence": null,
-      "avg_speed": 31.5,
-      "avg_speed_unit": "KPH",
-      "max_speed": 58.0,
-      "max_speed_unit": "KPH",
-      "avg_pace": null,
-      "avg_temp": null,
-      "avg_temp_unit": "C",
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "wind_speed_unit": "KMH",
-      "work_kj": null,
-      "calories": 381,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": 53.0,
-      "display": {
-        "distance": {
-          "value": 33.07,
-          "unit": "km"
-        },
-        "elevation": {
-          "value": 53,
-          "unit": "m"
-        },
-        "avg_speed": {
-          "value": 31.5,
-          "unit": "km/h"
-        },
-        "max_speed": {
-          "value": 58.0,
-          "unit": "km/h"
-        }
-      },
-      "feel": null,
-      "rpe": null,
-      "effort_response": null,
-      "zone_distribution": {
-        "hr_zones": {
-          "z1_time": 186,
-          "z2_time": 0,
-          "z3_time": 0,
-          "z4_time": 0,
-          "z5_time": 0,
-          "z6_time": 0,
-          "z7_time": 0
-        }
-      },
-      "has_intervals": false,
-      "has_dfa": false
-    },
-    {
-      "id": "i150211170",
-      "date": "2026-05-21T12:24:51",
-      "type": "VirtualRide",
-      "name": "Indoor Cycling",
-      "duration_hours": 1.05,
-      "distance_km": 33.07,
-      "tss": 1,
-      "intensity_factor": 9.764169,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": 99,
-      "max_hr": 123,
-      "avg_cadence": null,
-      "avg_speed": 31.5,
-      "avg_speed_unit": "KPH",
-      "max_speed": 58.0,
-      "max_speed_unit": "KPH",
-      "avg_pace": null,
-      "avg_temp": null,
-      "avg_temp_unit": "C",
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "wind_speed_unit": "KMH",
-      "work_kj": null,
-      "calories": 381,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": 53.0,
-      "display": {
-        "distance": {
-          "value": 33.07,
-          "unit": "km"
-        },
-        "elevation": {
-          "value": 53,
-          "unit": "m"
-        },
-        "avg_speed": {
-          "value": 31.5,
-          "unit": "km/h"
-        },
-        "max_speed": {
-          "value": 58.0,
-          "unit": "km/h"
-        }
-      },
-      "feel": null,
-      "rpe": null,
-      "effort_response": null,
-      "zone_distribution": {
-        "hr_zones": {
-          "z1_time": 186,
-          "z2_time": 0,
-          "z3_time": 0,
-          "z4_time": 0,
-          "z5_time": 0,
-          "z6_time": 0,
-          "z7_time": 0
         }
       },
       "has_intervals": false,
@@ -2513,121 +1565,6 @@
           "z7_time": 0
         }
       },
-      "has_intervals": false,
-      "has_dfa": false
-    },
-    {
-      "id": "i149900742",
-      "date": "2026-05-20T10:25:10",
-      "type": "VirtualRide",
-      "name": "Indoor Cycling",
-      "duration_hours": 1.34,
-      "distance_km": 41.07,
-      "tss": null,
-      "intensity_factor": null,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": null,
-      "max_hr": null,
-      "avg_cadence": null,
-      "avg_speed": 30.7,
-      "avg_speed_unit": "KPH",
-      "max_speed": 58.7,
-      "max_speed_unit": "KPH",
-      "avg_pace": null,
-      "avg_temp": null,
-      "avg_temp_unit": "C",
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "wind_speed_unit": "KMH",
-      "work_kj": null,
-      "calories": 469,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": 64.0,
-      "display": {
-        "distance": {
-          "value": 41.07,
-          "unit": "km"
-        },
-        "elevation": {
-          "value": 64,
-          "unit": "m"
-        },
-        "avg_speed": {
-          "value": 30.7,
-          "unit": "km/h"
-        },
-        "max_speed": {
-          "value": 58.7,
-          "unit": "km/h"
-        }
-      },
-      "feel": null,
-      "rpe": null,
-      "effort_response": null,
-      "zone_distribution": null,
-      "has_intervals": false,
-      "has_dfa": false
-    },
-    {
-      "id": "i149899761",
-      "date": "2026-05-20T10:25:10",
-      "type": "VirtualRide",
-      "name": "Indoor Cycling",
-      "duration_hours": 1.39,
-      "distance_km": 41.07,
-      "tss": null,
-      "intensity_factor": null,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": null,
-      "max_hr": null,
-      "avg_cadence": null,
-      "avg_speed": 29.5,
-      "avg_speed_unit": "KPH",
-      "max_speed": 29.5,
-      "max_speed_unit": "KPH",
-      "avg_pace": null,
-      "avg_temp": null,
-      "avg_temp_unit": "C",
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "wind_speed_unit": "KMH",
-      "work_kj": null,
-      "calories": 469,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": null,
-      "display": {
-        "distance": {
-          "value": 41.07,
-          "unit": "km"
-        },
-        "elevation": null,
-        "avg_speed": {
-          "value": 29.5,
-          "unit": "km/h"
-        },
-        "max_speed": {
-          "value": 29.5,
-          "unit": "km/h"
-        }
-      },
-      "feel": null,
-      "rpe": null,
-      "effort_response": null,
-      "zone_distribution": null,
       "has_intervals": false,
       "has_dfa": false
     },
@@ -3016,10 +1953,10 @@
     "bail_no_match": 0
   },
   "weekly_summary": {
-    "total_training_hours": 6.86,
-    "total_training_formatted": "6h51m",
+    "total_training_hours": 2.8,
+    "total_training_formatted": "2h48m",
     "total_tss": 118,
-    "activities_count": 8,
+    "activities_count": 4,
     "avg_hrv": 29.0,
     "avg_resting_hr": 63.1
   },
