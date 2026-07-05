@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-05T21:02:33.574963",
+    "last_updated": "2026-07-05T22:13:36.028902",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -589,7 +589,7 @@
           "current_week_hard_days_total": 1,
           "race_proximity": null,
           "next_week_load": 2.13,
-          "plan_coverage_current_week": 0.0,
+          "plan_coverage_current_week": 0.2,
           "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
@@ -623,13 +623,13 @@
     "p_max": 681,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-05T21:02:33.573748",
+    "calculation_timestamp": "2026-07-05T22:13:36.027838",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
       "activities_7d": 4,
       "activities_28d": 18,
-      "planned_workouts_7d": 0,
+      "planned_workouts_7d": 1,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -2300,6 +2300,19 @@
   ],
   "planned_workouts": [
     {
+      "id": 120769600,
+      "date": "2026-07-05",
+      "name": "[ARGO] 2026-06-29\uc8fc \ucf54\uce6d\ub178\ud2b8 \u00b7 hold",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "\uc548\ub155\ud558\uc138\uc694 Yongdoo Park\ub2d8, ARGO \ucf54\uce58\uc785\ub2c8\ub2e4. 2026-06-29\uc8fc(\uc6d4~\uc77c) \ub9ac\ubdf0\uc785\ub2c8\ub2e4.\n\n[\uae30\ubcf8 \uc9c0\ud45c] \uc774\ubc88\uc8fc vs \uc9c0\ub09c\uc8fc\n  \u00b7 \ub77c\uc774\ub529 4\ud68c(\u0394-1) \u00b7 \uc2dc\uac04 274\ubd84(\u0394+21) \u00b7 TSS 168(\u0394+10)\n  \u00b7 \uc218\ud589\uc728 \u2014 \u00b7 ACWR 1.13 \u00b7 Form -7 \u00b7 \ud575\uc2ec\uacb0\uc190 0\n\n[\uc6cc\ud06c\uc544\uc6c3 \uc218\ud589\ud3c9\uac00] (\ud30c\uc6cc\u00b7\uc2ec\ubc15\u00b7EF)\n  \u00b7 06-29 Zwift - Tempus Fugit in Wato \u2014 61\ubd84 \u00b7 125W \u00b7 HR 136 \u00b7 EF 0.92\n  \u00b7 07-01 Zwift - Tempus Fugit in Wato \u2014 78\ubd84 \u00b7 110W \u00b7 HR 143 \u00b7 EF 0.77\n  \u00b7 07-03 Zwift - Tempus Fugit in Wato \u2014 100\ubd84 \u00b7 114W \u00b7 HR 133 \u00b7 EF 0.86\n  \u00b7 07-05 Zwift - Tempus Fugit in Wato \u2014 32\ubd84 \u00b7 171W \u00b7 HR 145 \u00b7 EF 1.18\n  \uc885\ud569: EF 0.77~1.18 \u2014 \uc138\uc158\ubcc4 \ud6a8\uc728 \ud3b8\ucc28 \uc788\uc74c(\uac15\ub3c4\ub300 \uc0c1\uc774). \ud30c\uc6cc\u2013\uc2ec\ubc15 \uad00\uacc4\ub85c \ubcf8 \uc720\uc0b0\uc18c \ubc18\uc751 \uc591\ud638.\n\n[\uc120\uc218 \ub178\ud2b8 \ub2f5\ubcc0]\n  \uc774\ubc88\uc8fc \ub0a8\uae30\uc2e0 \ub178\ud2b8\u00b7\ucf54\uba58\ud2b8\ub294 \uc5c6\uc5c8\uc2b5\ub2c8\ub2e4. \ucee8\ub514\uc158\uc774\ub098 \uc9c8\ubb38\uc740 \ud65c\ub3d9 \ucf54\uba58\ud2b8\ub85c \ub0a8\uaca8\uc8fc\uc138\uc694.\n\n[\uc774\ubc88\uc8fc \uacc4\ud68d]\n  \u00b7 07-06 W1[Tempo] Mon \u00b7 Easy 60min (ARGO plan)\n  \u00b7 07-07 W1[Tempo] Tue \u00b7 Threshold 4\u00d78 @97%\n  \u00b7 07-09 W1[Tempo] Thu \u00b7 Threshold 3\u00d710 @96%\n  \u00b7 07-11 W1[Tempo] Sat \u00b7 Z2 40min (ARGO plan)\n  \u00b7 07-12 W1[Tempo] Sun \u00b7 Long 150min (ARGO plan)\n  \ucf54\uba58\ud2b8: \uc9c8 \uc138\uc158 5\ud68c + \uc720\uc0b0\uc18c/\ud68c\ubcf5 0\ud68c(\uc591\uadf9\ud654 \uad6c\uc131).\n\n\ud55c \uc8fc \uace0\uc0dd \ub9ce\uc73c\uc168\uc2b5\ub2c8\ub2e4. \uad81\uae08\ud55c \uc810\uc740 \uc774 \ub178\ud2b8\uc5d0 \ub2f5\uae00\ub85c \ub0a8\uaca8\uc8fc\uc138\uc694. \u2014 ARGO \ucf54\uce58"
+    },
+    {
       "id": 120615720,
       "date": "2026-07-06",
       "name": "W1[Tempo] Mon \u00b7 Easy 60min (ARGO plan)",
@@ -2674,7 +2687,7 @@
     "success": 10,
     "patternA": 0,
     "patternB": 10,
-    "bail_no_workout_doc": 0,
+    "bail_no_workout_doc": 1,
     "bail_no_match": 19
   },
   "weekly_summary": {
