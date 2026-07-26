@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-26T07:41:58.797675",
+    "last_updated": "2026-07-26T09:46:46.752367",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -132,13 +132,13 @@
         "value_yesterday": null
       },
       "tsb": {
-        "status": "amber",
-        "value": -23.8
+        "status": "green",
+        "value": -11.9
       }
     },
     "signal_summary": {
-      "green": 2,
-      "amber": 1,
+      "green": 3,
+      "amber": 0,
       "red": 0,
       "unavailable": 3
     },
@@ -150,7 +150,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 2 green, 1 amber (threshold 2), 0 red.",
+    "reason": "P3 green light. 3 green, 0 amber (threshold 2), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -182,10 +182,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 26.25,
-      "atl": 50.09,
-      "tsb": -23.84,
-      "ramp_rate": 4.27,
+      "ctl": 23.69,
+      "atl": 35.58,
+      "tsb": -11.89,
+      "ramp_rate": 1.71,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -251,7 +251,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1723,
+      "steps": 2465,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -636,7 +636,7 @@
     "p_max": 681,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-26T07:41:58.796583",
+    "calculation_timestamp": "2026-07-26T09:46:46.751524",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -654,7 +654,7 @@
       "id": "i169263187",
       "date": "2026-07-26T13:59:19",
       "type": "VirtualRide",
-      "name": "Zwift - Tempus Fugit in Watopia",
+      "name": "W3[Tempo] Sun \u00b7 Long 150min (ARGO plan)",
       "duration_hours": 1.5,
       "distance_km": 47.01,
       "tss": 46,
@@ -2418,7 +2418,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1723,
+      "steps": 2465,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
