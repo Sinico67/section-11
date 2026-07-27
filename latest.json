@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-27T00:16:10.660963",
+    "last_updated": "2026-07-27T04:13:37.290925",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -596,14 +596,14 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.97,
+          "planned_tss_delta": 2.18,
           "hard_sessions_planned": 4,
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 4,
           "race_proximity": null,
-          "next_week_load": 1.33,
-          "plan_coverage_current_week": 0.8,
-          "plan_coverage_next_week": 0.8
+          "next_week_load": 2.12,
+          "plan_coverage_current_week": 2.4,
+          "plan_coverage_next_week": 1.6
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -636,7 +636,7 @@
     "p_max": 681,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-27T00:16:10.659824",
+    "calculation_timestamp": "2026-07-27T04:13:37.289747",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 6,
@@ -2379,6 +2379,58 @@
       "description": "\ub871 \uc5ed\uce58 3\u00d712 \u2014 CP-anchored (CP/VT2=190W \u00b7 MAP=255W)\nWarmup \u2934 \uc810\uc9c4 \uc0c1\uc2b9\n- 2m30s 95W\n- 2m30s 106W\n- 2m30s 118W\n- 2m30s 129W\n- 2m30s 141W\n- 12m 184W\n- 5m 95W\n- 12m 184W\n- 5m 95W\n- 12m 184W\n- 5m 95W\nCooldown \u2935 \uc810\uc9c4 \ud558\uac15\n- 2m30s 114W\n- 2m30s 103W\n- 2m30s 91W\n- 2m30s 80W"
     },
     {
+      "id": 125342977,
+      "date": "2026-07-28",
+      "name": "PatternRx W1 Tue \u00b7 Absorb recovery 45min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 19,
+      "duration_hours": 0.72,
+      "duration_formatted": "43m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "PatternRx \ubcc4\ub3c4 4\uc8fc \ucc98\ubc29 \u00b7 CP/VT2 190W \u00b7 VT1 137W \u00b7 MAP 255W\n\ud604\uc7ac cut \ud310\uc815 \ubc18\uc601; \ub300\ud654 \uac00\ub2a5\ud55c \uac15\ub3c4\n\ud30c\uc6cc \uad6c\uc870: main 95W\n\ucf00\uc774\ub358\uc2a4: 68\u201375rpm\n\uc9c4\ud589 \uc870\uac74: \uc9c1\uc804 \uc8fc \uc774\ud589\ub960 80% \uc774\uc0c1 \u00b7 \uc911\ub2e8 \uaddc\uce59 \uc0ac\uac74 \uc5c6\uc74c \u00b7 quality \ubaa9\ud45c \ubbf8\ub2ec 2\ud68c \uc5f0\uc18d \uc5c6\uc74c\n\nWorkout\nWarmup\n- 2m 80W\n- 2m 95W\n- 2m 105W\n- 2m 115W\n- 10m 95W\n- 10m 95W\n- 10m 95W\n- 2m 95W\n- 2m30s 100W\n- 2m30s 85W\n\n\uc911\ub2e8 \uaddc\uce59\n- \ud749\ud1b5, \uc2e4\uc2e0 \uc804 \ub290\ub08c, \ube44\uc815\uc0c1 \ud638\ud761\uace4\ub780, \uc0c8\ub85c \ubc1c\uc0dd\ud55c \uc2ec\uacc4\ud56d\uc9c4\uc774 \uc788\uc73c\uba74 \uc989\uc2dc \uc911\ub2e8\ud558\uace0 \uc758\ub8cc \ud3c9\uac00\n- W1 \ud53c\ub85c\uac00 \ud574\uc18c\ub418\uc9c0 \uc54a\uac70\ub098 \ub450 \uc138\uc158 \uc5f0\uc18d RPE\uac00 \uc758\ub3c4\ubcf4\ub2e4 2 \uc774\uc0c1 \ub192\uc73c\uba74 \ub2e4\uc74c quality\ub97c Z2 45\ubd84\uc73c\ub85c \ub300\uccb4\n- VO2 \ub819 \ud30c\uc6cc\uac00 \ub450 \ub819 \uc5f0\uc18d \ubaa9\ud45c\uc758 90% \uc544\ub798\ub85c \ub5a8\uc5b4\uc9c0\uba74 \ub0a8\uc740 \ub819\uc744 \uc911\ub2e8\ud558\uace0 \ucfe8\ub2e4\uc6b4\n- \ud1b5\uc99d\uc774 \ubcf4\ud589 \ub610\ub294 \ud398\ub2ec\ub9c1 \ud328\ud134\uc744 \ubc14\uafb8\uba74 \ud574\ub2f9 \uc138\uc158 \uc911\ub2e8\n\nARGO Rx4: non-binding shadow \u00b7 gate blocked\n\uae30\uc874 \uce98\ub9b0\ub354 \ud50c\ub79c\uacfc \ubcc4\ub3c4 \uc5c5\ub85c\ub4dc\ub41c PatternRx \ucc98\ubc29"
+    },
+    {
+      "id": 125347942,
+      "date": "2026-07-28",
+      "name": "ARGO-PILOT W1 \u00b7 Recovery 45min \u00b7 hold",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 19,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "ARGO-Rx4 prospective shadow pilot \u00b7 \ucf54\uce58 \uc218\ub77d\uc548\n\uc575\ucee4: VT1 134W \u00b7 AT 179W \u00b7 MAP 211W \u00b7 cad_ref 84rpm\n\uc138\uc158: \ud604\uc7ac cut \ud310\uc815 \ubc18\uc601; \ub300\ud654 \uac00\ub2a5\ud55c \uac15\ub3c4\n\ud30c\uc6cc \uad6c\uc870: main 95W\n\uba54\uc778 \ucf00\uc774\ub358\uc2a4: 72rpm \ucc98\ubc29 \u00b7 \uc790\uc5f0 \ud638\ud761\nshadow card YD-20260727-W01-TUE-RECOVERY \u00b7 candidate cand-cafc3dc8bf46 \u00b7 card sha 1ec16885ccdd32fb712198f5b4c73ce4dd29813f672171941ea546a5cbe628fd\n\uae30\uc874 \uce98\ub9b0\ub354\uc640 \uc911\ubcf5 \ud45c\uc2dc\ub420 \uc218 \uc788\uc74c. \uac19\uc740 \ub0a0\uc9dc\uc758 \uacb9\uce58\ub294 \ucc98\ubc29\uc744 \ubaa8\ub450 \uc218\ud589\ud558\uc9c0 \ub9d0\uace0 \ucf54\uce58\uac00 \uc9c0\uc815\ud55c 1\uac1c\ub9cc \uc218\ud589.\n\nWorkout\nWarmup\n- 2m 80W 84rpm\n- 2m 95W 84rpm\n- 2m 105W 84rpm\n- 2m 115W 84rpm\n- 10m 95W 72rpm\n- 10m 95W 72rpm\n- 10m 95W 72rpm\n- 2m 95W 72rpm\n- 2.5m 100W 84rpm\n- 2.5m 85W 84rpm\n\n\uc911\ub2e8 \uaddc\uce59\n- \ud749\ud1b5, \uc2e4\uc2e0 \uc804 \ub290\ub08c, \ube44\uc815\uc0c1 \ud638\ud761\uace4\ub780, \uc0c8 \uc2ec\uacc4\ud56d\uc9c4\uc774 \uc788\uc73c\uba74 \uc989\uc2dc \uc911\ub2e8\ud558\uace0 \uc758\ub8cc \ud3c9\uac00\n- \ud53c\ub85c\uac00 \ud574\uc18c\ub418\uc9c0 \uc54a\uac70\ub098 \ub450 \uc138\uc158 \uc5f0\uc18d RPE\uac00 \uc758\ub3c4\ubcf4\ub2e4 2 \uc774\uc0c1 \ub192\uc73c\uba74 \ub2e4\uc74c \uc138\uc158\uc744 Z2 45\ubd84 \uc774\ud558\ub85c \ucd95\uc18c\n- \ud1b5\uc99d\uc774 \ubcf4\ud589 \ub610\ub294 \ud398\ub2ec\ub9c1 \ud328\ud134\uc744 \ubc14\uafb8\uba74 \ud574\ub2f9 \uc138\uc158 \uc911\ub2e8\n\n\uc5d4\uc9c4 \uad8c\ud55c: NON_BINDING SHADOW_ONLY\n\uc2e4\uc81c \ucc98\ubc29 \uc18c\uc720\uc790: \ucf54\uce58 \ubc0f \uae30\uc874 \ucc98\ubc29 \ud30c\uc774\ud504\ub77c\uc778"
+    },
+    {
+      "id": 125342979,
+      "date": "2026-07-30",
+      "name": "PatternRx W1 Thu \u00b7 Z2 economy 60min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 38,
+      "duration_hours": 0.97,
+      "duration_formatted": "58m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "PatternRx \ubcc4\ub3c4 4\uc8fc \ucc98\ubc29 \u00b7 CP/VT2 190W \u00b7 VT1 137W \u00b7 MAP 255W\n\ud655\uc778\ub41c true-Z2 120W; \uc790\uc5f0 \ud638\ud761\n\ud30c\uc6cc \uad6c\uc870: main 120W\n\ucf00\uc774\ub358\uc2a4: 68\u201375rpm\n\uc9c4\ud589 \uc870\uac74: \uc9c1\uc804 \uc8fc \uc774\ud589\ub960 80% \uc774\uc0c1 \u00b7 \uc911\ub2e8 \uaddc\uce59 \uc0ac\uac74 \uc5c6\uc74c \u00b7 quality \ubaa9\ud45c \ubbf8\ub2ec 2\ud68c \uc5f0\uc18d \uc5c6\uc74c\n\nWorkout\nWarmup\n- 2m 80W\n- 2m 95W\n- 2m 105W\n- 2m 115W\n- 10m 120W\n- 10m 120W\n- 10m 120W\n- 10m 120W\n- 7m 120W\n- 2m30s 100W\n- 2m30s 85W\n\n\uc911\ub2e8 \uaddc\uce59\n- \ud749\ud1b5, \uc2e4\uc2e0 \uc804 \ub290\ub08c, \ube44\uc815\uc0c1 \ud638\ud761\uace4\ub780, \uc0c8\ub85c \ubc1c\uc0dd\ud55c \uc2ec\uacc4\ud56d\uc9c4\uc774 \uc788\uc73c\uba74 \uc989\uc2dc \uc911\ub2e8\ud558\uace0 \uc758\ub8cc \ud3c9\uac00\n- W1 \ud53c\ub85c\uac00 \ud574\uc18c\ub418\uc9c0 \uc54a\uac70\ub098 \ub450 \uc138\uc158 \uc5f0\uc18d RPE\uac00 \uc758\ub3c4\ubcf4\ub2e4 2 \uc774\uc0c1 \ub192\uc73c\uba74 \ub2e4\uc74c quality\ub97c Z2 45\ubd84\uc73c\ub85c \ub300\uccb4\n- VO2 \ub819 \ud30c\uc6cc\uac00 \ub450 \ub819 \uc5f0\uc18d \ubaa9\ud45c\uc758 90% \uc544\ub798\ub85c \ub5a8\uc5b4\uc9c0\uba74 \ub0a8\uc740 \ub819\uc744 \uc911\ub2e8\ud558\uace0 \ucfe8\ub2e4\uc6b4\n- \ud1b5\uc99d\uc774 \ubcf4\ud589 \ub610\ub294 \ud398\ub2ec\ub9c1 \ud328\ud134\uc744 \ubc14\uafb8\uba74 \ud574\ub2f9 \uc138\uc158 \uc911\ub2e8\n\nARGO Rx4: non-binding shadow \u00b7 gate blocked\n\uae30\uc874 \uce98\ub9b0\ub354 \ud50c\ub79c\uacfc \ubcc4\ub3c4 \uc5c5\ub85c\ub4dc\ub41c PatternRx \ucc98\ubc29"
+    },
+    {
+      "id": 125347943,
+      "date": "2026-07-30",
+      "name": "ARGO-PILOT W1 \u00b7 Z2 economy 60min \u00b7 hold",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 37,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "ARGO-Rx4 prospective shadow pilot \u00b7 \ucf54\uce58 \uc218\ub77d\uc548\n\uc575\ucee4: VT1 134W \u00b7 AT 179W \u00b7 MAP 211W \u00b7 cad_ref 84rpm\n\uc138\uc158: \ud655\uc778\ub41c true-Z2 120W; \uc790\uc5f0 \ud638\ud761\n\ud30c\uc6cc \uad6c\uc870: main 120W\n\uba54\uc778 \ucf00\uc774\ub358\uc2a4: 72rpm \ucc98\ubc29 \u00b7 \uc790\uc5f0 \ud638\ud761\nshadow card YD-20260727-W01-THU-BASE \u00b7 candidate cand-04654860a7b3 \u00b7 card sha bd8dea5c97dfd44aa48bd2df21bb982e8a1e81443142ac04ede9283e55401fea\n\uae30\uc874 \uce98\ub9b0\ub354\uc640 \uc911\ubcf5 \ud45c\uc2dc\ub420 \uc218 \uc788\uc74c. \uac19\uc740 \ub0a0\uc9dc\uc758 \uacb9\uce58\ub294 \ucc98\ubc29\uc744 \ubaa8\ub450 \uc218\ud589\ud558\uc9c0 \ub9d0\uace0 \ucf54\uce58\uac00 \uc9c0\uc815\ud55c 1\uac1c\ub9cc \uc218\ud589.\n\nWorkout\nWarmup\n- 2m 80W 84rpm\n- 2m 95W 84rpm\n- 2m 105W 84rpm\n- 2m 115W 84rpm\n- 10m 120W 72rpm\n- 10m 120W 72rpm\n- 10m 120W 72rpm\n- 10m 120W 72rpm\n- 7m 120W 72rpm\n- 2.5m 100W 84rpm\n- 2.5m 85W 84rpm\n\n\uc911\ub2e8 \uaddc\uce59\n- \ud749\ud1b5, \uc2e4\uc2e0 \uc804 \ub290\ub08c, \ube44\uc815\uc0c1 \ud638\ud761\uace4\ub780, \uc0c8 \uc2ec\uacc4\ud56d\uc9c4\uc774 \uc788\uc73c\uba74 \uc989\uc2dc \uc911\ub2e8\ud558\uace0 \uc758\ub8cc \ud3c9\uac00\n- \ud53c\ub85c\uac00 \ud574\uc18c\ub418\uc9c0 \uc54a\uac70\ub098 \ub450 \uc138\uc158 \uc5f0\uc18d RPE\uac00 \uc758\ub3c4\ubcf4\ub2e4 2 \uc774\uc0c1 \ub192\uc73c\uba74 \ub2e4\uc74c \uc138\uc158\uc744 Z2 45\ubd84 \uc774\ud558\ub85c \ucd95\uc18c\n- \ud1b5\uc99d\uc774 \ubcf4\ud589 \ub610\ub294 \ud398\ub2ec\ub9c1 \ud328\ud134\uc744 \ubc14\uafb8\uba74 \ud574\ub2f9 \uc138\uc158 \uc911\ub2e8\n\n\uc5d4\uc9c4 \uad8c\ud55c: NON_BINDING SHADOW_ONLY\n\uc2e4\uc81c \ucc98\ubc29 \uc18c\uc720\uc790: \ucf54\uce58 \ubc0f \uae30\uc874 \ucc98\ubc29 \ud30c\uc774\ud504\ub77c\uc778"
+    },
+    {
       "id": 120615745,
       "date": "2026-08-01",
       "name": "W4[Tempo] Sat \u00b7 Z2 52min (ARGO plan)",
@@ -2392,6 +2444,32 @@
       "description": "\uc720\uc0b0\uc18c \uae30\ubc18(\uc9e7\uc740\ube14\ub7ed) \u2014 CP-anchored (CP/VT2=190W \u00b7 MAP=255W)\nWarmup \u2934 \uc810\uc9c4 \uc0c1\uc2b9\n- 2m 75W\n- 2m 93W\n- 2m 112W\n- 2m 126W\n- 10m 130W\n- 10m 137W\n- 10m 130W\nCooldown \u2935 \uc810\uc9c4 \ud558\uac15\n- 9m 137W\n- 2m30s 107W\n- 2m30s 81W"
     },
     {
+      "id": 125342982,
+      "date": "2026-08-01",
+      "name": "PatternRx W1 Sat \u00b7 Pattern Long Z2 95min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 59,
+      "duration_hours": 1.47,
+      "duration_formatted": "1h28m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "PatternRx \ubcc4\ub3c4 4\uc8fc \ucc98\ubc29 \u00b7 CP/VT2 190W \u00b7 VT1 137W \u00b7 MAP 255W\n\ucd5c\uadfc \uc644\uc218 \ubc94\uc704\uc5d0\uc11c 95\u2192105\u2192110\ubd84\uc73c\ub85c \ud655\uc7a5; \uace0\uac15\ub3c4 \ud53c\ub2c8\uc154 \uc5c6\uc74c\n\ud30c\uc6cc \uad6c\uc870: main 115\u2013120W\n\ucf00\uc774\ub358\uc2a4: 68\u201375rpm\n\uc9c4\ud589 \uc870\uac74: \uc9c1\uc804 \uc8fc \uc774\ud589\ub960 80% \uc774\uc0c1 \u00b7 \uc911\ub2e8 \uaddc\uce59 \uc0ac\uac74 \uc5c6\uc74c \u00b7 quality \ubaa9\ud45c \ubbf8\ub2ec 2\ud68c \uc5f0\uc18d \uc5c6\uc74c\n\nWorkout\nWarmup\n- 2m 80W\n- 2m 95W\n- 2m 105W\n- 2m 115W\n- 10m 115W\n- 10m 120W\n- 10m 115W\n- 10m 120W\n- 10m 115W\n- 10m 120W\n- 10m 115W\n- 10m 120W\n- 2m 115W\n- 2m30s 100W\n- 2m30s 85W\n\n\uc911\ub2e8 \uaddc\uce59\n- \ud749\ud1b5, \uc2e4\uc2e0 \uc804 \ub290\ub08c, \ube44\uc815\uc0c1 \ud638\ud761\uace4\ub780, \uc0c8\ub85c \ubc1c\uc0dd\ud55c \uc2ec\uacc4\ud56d\uc9c4\uc774 \uc788\uc73c\uba74 \uc989\uc2dc \uc911\ub2e8\ud558\uace0 \uc758\ub8cc \ud3c9\uac00\n- W1 \ud53c\ub85c\uac00 \ud574\uc18c\ub418\uc9c0 \uc54a\uac70\ub098 \ub450 \uc138\uc158 \uc5f0\uc18d RPE\uac00 \uc758\ub3c4\ubcf4\ub2e4 2 \uc774\uc0c1 \ub192\uc73c\uba74 \ub2e4\uc74c quality\ub97c Z2 45\ubd84\uc73c\ub85c \ub300\uccb4\n- VO2 \ub819 \ud30c\uc6cc\uac00 \ub450 \ub819 \uc5f0\uc18d \ubaa9\ud45c\uc758 90% \uc544\ub798\ub85c \ub5a8\uc5b4\uc9c0\uba74 \ub0a8\uc740 \ub819\uc744 \uc911\ub2e8\ud558\uace0 \ucfe8\ub2e4\uc6b4\n- \ud1b5\uc99d\uc774 \ubcf4\ud589 \ub610\ub294 \ud398\ub2ec\ub9c1 \ud328\ud134\uc744 \ubc14\uafb8\uba74 \ud574\ub2f9 \uc138\uc158 \uc911\ub2e8\n\nARGO Rx4: non-binding shadow \u00b7 gate blocked\n\uae30\uc874 \uce98\ub9b0\ub354 \ud50c\ub79c\uacfc \ubcc4\ub3c4 \uc5c5\ub85c\ub4dc\ub41c PatternRx \ucc98\ubc29"
+    },
+    {
+      "id": 125347944,
+      "date": "2026-08-01",
+      "name": "ARGO-PILOT W1 \u00b7 Long Z2 95min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 58,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "ARGO-Rx4 prospective shadow pilot \u00b7 \ucf54\uce58 \uc218\ub77d\uc548\n\uc575\ucee4: VT1 134W \u00b7 AT 179W \u00b7 MAP 211W \u00b7 cad_ref 84rpm\n\uc138\uc158: \ucd5c\uadfc \uc7a5\uac70\ub9ac \uc644\uc218 \ubc94\uc704 \uc548\uc5d0\uc11c \uc720\uc9c0; \uace0\uac15\ub3c4 \ud53c\ub2c8\uc154 \uc5c6\uc74c\n\ud30c\uc6cc \uad6c\uc870: main 115\u2013120W\n\uba54\uc778 \ucf00\uc774\ub358\uc2a4: 72rpm \ucc98\ubc29 \u00b7 \uc790\uc5f0 \ud638\ud761\nshadow card YD-20260727-W01-SAT-LONG \u00b7 candidate cand-f6804e166470 \u00b7 card sha 93a6b84eda9adf90055c4ffd97bff99ffc1ae0d44043b77e49571e483fd530b2\n\uae30\uc874 \uce98\ub9b0\ub354\uc640 \uc911\ubcf5 \ud45c\uc2dc\ub420 \uc218 \uc788\uc74c. \uac19\uc740 \ub0a0\uc9dc\uc758 \uacb9\uce58\ub294 \ucc98\ubc29\uc744 \ubaa8\ub450 \uc218\ud589\ud558\uc9c0 \ub9d0\uace0 \ucf54\uce58\uac00 \uc9c0\uc815\ud55c 1\uac1c\ub9cc \uc218\ud589.\n\nWorkout\nWarmup\n- 2m 80W 84rpm\n- 2m 95W 84rpm\n- 2m 105W 84rpm\n- 2m 115W 84rpm\n- 10m 115W 72rpm\n- 10m 120W 72rpm\n- 10m 115W 72rpm\n- 10m 120W 72rpm\n- 10m 115W 72rpm\n- 10m 120W 72rpm\n- 10m 115W 72rpm\n- 10m 120W 72rpm\n- 2m 115W 72rpm\n- 2.5m 100W 84rpm\n- 2.5m 85W 84rpm\n\n\uc911\ub2e8 \uaddc\uce59\n- \ud749\ud1b5, \uc2e4\uc2e0 \uc804 \ub290\ub08c, \ube44\uc815\uc0c1 \ud638\ud761\uace4\ub780, \uc0c8 \uc2ec\uacc4\ud56d\uc9c4\uc774 \uc788\uc73c\uba74 \uc989\uc2dc \uc911\ub2e8\ud558\uace0 \uc758\ub8cc \ud3c9\uac00\n- \ud53c\ub85c\uac00 \ud574\uc18c\ub418\uc9c0 \uc54a\uac70\ub098 \ub450 \uc138\uc158 \uc5f0\uc18d RPE\uac00 \uc758\ub3c4\ubcf4\ub2e4 2 \uc774\uc0c1 \ub192\uc73c\uba74 \ub2e4\uc74c \uc138\uc158\uc744 Z2 45\ubd84 \uc774\ud558\ub85c \ucd95\uc18c\n- \ud1b5\uc99d\uc774 \ubcf4\ud589 \ub610\ub294 \ud398\ub2ec\ub9c1 \ud328\ud134\uc744 \ubc14\uafb8\uba74 \ud574\ub2f9 \uc138\uc158 \uc911\ub2e8\n\n\uc5d4\uc9c4 \uad8c\ud55c: NON_BINDING SHADOW_ONLY\n\uc2e4\uc81c \ucc98\ubc29 \uc18c\uc720\uc790: \ucf54\uce58 \ubc0f \uae30\uc874 \ucc98\ubc29 \ud30c\uc774\ud504\ub77c\uc778"
+    },
+    {
       "id": 120615746,
       "date": "2026-08-02",
       "name": "W4[Tempo] Sun \u00b7 Long 150min (ARGO plan)",
@@ -2403,6 +2481,32 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": "\uc9c0\ubc29 durability \u2014 CP-anchored (CP/VT2=190W \u00b7 MAP=255W)\nWarmup \u2934 \uc810\uc9c4 \uc0c1\uc2b9\n- 2m 75W\n- 2m 93W\n- 2m 112W\n- 2m 126W\n- 10m 124W\n- 10m 130W\n- 10m 133W\n- 10m 124W\n- 10m 130W\n- 10m 133W\n- 10m 124W\n- 10m 130W\n- 10m 133W\n- 10m 124W\n- 10m 130W\n- 5m 133W\n- 22m 167W\nCooldown \u2935 \uc810\uc9c4 \ud558\uac15\n- 2m30s 107W\n- 2m30s 81W"
+    },
+    {
+      "id": 125344337,
+      "date": "2026-08-02",
+      "name": "PatternRx W1 Sun \u00b7 Z2 aerobic 50min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 31,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "PatternRx \ubcc4\ub3c4 4\uc8fc \ucc98\ubc29 \u00b7 CP/VT2 190W \u00b7 VT1 137W \u00b7 MAP 255W\n\ud761\uc218 \uc8fc\uac04 \ubd80\ud558 \ud558\ud55c\uc744 \uc9c0\ud0a4\ub294 \uc800\uac15\ub3c4 \ubcfc\ub968\n\ud30c\uc6cc \uad6c\uc870: main 120W\n\ucf00\uc774\ub358\uc2a4: 68\u201375rpm\n\uc9c4\ud589 \uc870\uac74: \uc9c1\uc804 \uc8fc \uc774\ud589\ub960 80% \uc774\uc0c1 \u00b7 \uc911\ub2e8 \uaddc\uce59 \uc0ac\uac74 \uc5c6\uc74c \u00b7 quality \ubaa9\ud45c \ubbf8\ub2ec 2\ud68c \uc5f0\uc18d \uc5c6\uc74c\n\nWorkout\nWarmup\n- 2m 80W\n- 2m 95W\n- 2m 105W\n- 2m 115W\n- 10m 120W\n- 10m 120W\n- 10m 120W\n- 7m 120W\n- 2m30s 100W\n- 2m30s 85W\n\n\uc911\ub2e8 \uaddc\uce59\n- \ud749\ud1b5, \uc2e4\uc2e0 \uc804 \ub290\ub08c, \ube44\uc815\uc0c1 \ud638\ud761\uace4\ub780, \uc0c8\ub85c \ubc1c\uc0dd\ud55c \uc2ec\uacc4\ud56d\uc9c4\uc774 \uc788\uc73c\uba74 \uc989\uc2dc \uc911\ub2e8\ud558\uace0 \uc758\ub8cc \ud3c9\uac00\n- W1 \ud53c\ub85c\uac00 \ud574\uc18c\ub418\uc9c0 \uc54a\uac70\ub098 \ub450 \uc138\uc158 \uc5f0\uc18d RPE\uac00 \uc758\ub3c4\ubcf4\ub2e4 2 \uc774\uc0c1 \ub192\uc73c\uba74 \ub2e4\uc74c quality\ub97c Z2 45\ubd84\uc73c\ub85c \ub300\uccb4\n- VO2 \ub819 \ud30c\uc6cc\uac00 \ub450 \ub819 \uc5f0\uc18d \ubaa9\ud45c\uc758 90% \uc544\ub798\ub85c \ub5a8\uc5b4\uc9c0\uba74 \ub0a8\uc740 \ub819\uc744 \uc911\ub2e8\ud558\uace0 \ucfe8\ub2e4\uc6b4\n- \ud1b5\uc99d\uc774 \ubcf4\ud589 \ub610\ub294 \ud398\ub2ec\ub9c1 \ud328\ud134\uc744 \ubc14\uafb8\uba74 \ud574\ub2f9 \uc138\uc158 \uc911\ub2e8\n\nARGO Rx4: non-binding shadow \u00b7 gate blocked\n\uae30\uc874 \uce98\ub9b0\ub354 \ud50c\ub79c\uacfc \ubcc4\ub3c4 \uc5c5\ub85c\ub4dc\ub41c PatternRx \ucc98\ubc29"
+    },
+    {
+      "id": 125347946,
+      "date": "2026-08-02",
+      "name": "ARGO-PILOT W1 \u00b7 Z2 aerobic 50min \u00b7 hold",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 31,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "ARGO-Rx4 prospective shadow pilot \u00b7 \ucf54\uce58 \uc218\ub77d\uc548\n\uc575\ucee4: VT1 134W \u00b7 AT 179W \u00b7 MAP 211W \u00b7 cad_ref 84rpm\n\uc138\uc158: \ud761\uc218 \uc8fc\uac04 \uc800\uac15\ub3c4 \ubcfc\ub968\n\ud30c\uc6cc \uad6c\uc870: main 120W\n\uba54\uc778 \ucf00\uc774\ub358\uc2a4: 72rpm \ucc98\ubc29 \u00b7 \uc790\uc5f0 \ud638\ud761\nshadow card YD-20260727-W01-SUN-BASE \u00b7 candidate cand-2d762d504856 \u00b7 card sha b3241f7ce6b8df0eba56aeeb7490f9984308ea3a1d78794af8f402a9e3c01ada\n\uae30\uc874 \uce98\ub9b0\ub354\uc640 \uc911\ubcf5 \ud45c\uc2dc\ub420 \uc218 \uc788\uc74c. \uac19\uc740 \ub0a0\uc9dc\uc758 \uacb9\uce58\ub294 \ucc98\ubc29\uc744 \ubaa8\ub450 \uc218\ud589\ud558\uc9c0 \ub9d0\uace0 \ucf54\uce58\uac00 \uc9c0\uc815\ud55c 1\uac1c\ub9cc \uc218\ud589.\n\nWorkout\nWarmup\n- 2m 80W 84rpm\n- 2m 95W 84rpm\n- 2m 105W 84rpm\n- 2m 115W 84rpm\n- 10m 120W 72rpm\n- 10m 120W 72rpm\n- 10m 120W 72rpm\n- 7m 120W 72rpm\n- 2.5m 100W 84rpm\n- 2.5m 85W 84rpm\n\n\uc911\ub2e8 \uaddc\uce59\n- \ud749\ud1b5, \uc2e4\uc2e0 \uc804 \ub290\ub08c, \ube44\uc815\uc0c1 \ud638\ud761\uace4\ub780, \uc0c8 \uc2ec\uacc4\ud56d\uc9c4\uc774 \uc788\uc73c\uba74 \uc989\uc2dc \uc911\ub2e8\ud558\uace0 \uc758\ub8cc \ud3c9\uac00\n- \ud53c\ub85c\uac00 \ud574\uc18c\ub418\uc9c0 \uc54a\uac70\ub098 \ub450 \uc138\uc158 \uc5f0\uc18d RPE\uac00 \uc758\ub3c4\ubcf4\ub2e4 2 \uc774\uc0c1 \ub192\uc73c\uba74 \ub2e4\uc74c \uc138\uc158\uc744 Z2 45\ubd84 \uc774\ud558\ub85c \ucd95\uc18c\n- \ud1b5\uc99d\uc774 \ubcf4\ud589 \ub610\ub294 \ud398\ub2ec\ub9c1 \ud328\ud134\uc744 \ubc14\uafb8\uba74 \ud574\ub2f9 \uc138\uc158 \uc911\ub2e8\n\n\uc5d4\uc9c4 \uad8c\ud55c: NON_BINDING SHADOW_ONLY\n\uc2e4\uc81c \ucc98\ubc29 \uc18c\uc720\uc790: \ucf54\uce58 \ubc0f \uae30\uc874 \ucc98\ubc29 \ud30c\uc774\ud504\ub77c\uc778"
     },
     {
       "id": 120615747,
@@ -2430,6 +2534,18 @@
       "has_terrain": false
     },
     {
+      "id": 125342985,
+      "date": "2026-08-04",
+      "name": "PatternRx W2 Tue \u00b7 VO2 re-entry 3\u00d76\u00d730/30",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 48,
+      "duration_hours": 0.73,
+      "duration_formatted": "44m",
+      "workout_summary": "3m @85W | 3m @100W | 3m @115W | 3m @130W | 6\u00d730s @235W / 30s rec | 4m @105W | 6\u00d730s @235W / 30s rec | 4m @105W | 6\u00d730s @235W / 30s rec | 3m @110W | 3m @95W | 3m @80W",
+      "has_terrain": false
+    },
+    {
       "id": 120615751,
       "date": "2026-08-06",
       "name": "W5[POL] Thu \u00b7 VO2 5\u00d73 @95%MAP",
@@ -2440,6 +2556,32 @@
       "duration_formatted": "1h13m45s",
       "workout_summary": "2m30s @95W | 2m30s @106W | 2m30s @118W | 2m30s @129W | 2m30s @141W | 7\u00d730s @237W / 15s rec | 3 \u00d7 6\u00d730s @237W / 15s rec | 5\u00d730s @237W / 15s rec | 2m30s @114W | 2m30s @103W | 2m30s @91W | 2m30s @80W",
       "has_terrain": false
+    },
+    {
+      "id": 125342986,
+      "date": "2026-08-06",
+      "name": "PatternRx W2 Thu \u00b7 Z2 economy 60min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 38,
+      "duration_hours": 0.97,
+      "duration_formatted": "58m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "PatternRx \ubcc4\ub3c4 4\uc8fc \ucc98\ubc29 \u00b7 CP/VT2 190W \u00b7 VT1 137W \u00b7 MAP 255W\n\uc800\uac15\ub3c4 \ubcfc\ub968 \uc720\uc9c0; \uc790\uc5f0 \ud638\ud761\n\ud30c\uc6cc \uad6c\uc870: main 120W"
+    },
+    {
+      "id": 125342988,
+      "date": "2026-08-08",
+      "name": "PatternRx W2 Sat \u00b7 Pattern Long Z2 105min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 65,
+      "duration_hours": 1.55,
+      "duration_formatted": "1h33m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "PatternRx \ubcc4\ub3c4 4\uc8fc \ucc98\ubc29 \u00b7 CP/VT2 190W \u00b7 VT1 137W \u00b7 MAP 255W\n\ucd5c\uadfc \uc644\uc218 \ubc94\uc704\uc5d0\uc11c 95\u2192105\u2192110\ubd84\uc73c\ub85c \ud655\uc7a5; \uace0\uac15\ub3c4 \ud53c\ub2c8\uc154 \uc5c6\uc74c\n\ud30c\uc6cc \uad6c\uc870: main 115\u2013120W"
     },
     {
       "id": 120615753,
@@ -2453,6 +2595,19 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": "\uc9c0\ubc29 durability \u2014 CP-anchored (CP/VT2=190W \u00b7 MAP=255W)\nWarmup \u2934 \uc810\uc9c4 \uc0c1\uc2b9\n- 2m 75W"
+    },
+    {
+      "id": 125342990,
+      "date": "2026-08-09",
+      "name": "PatternRx W2 Sun \u00b7 Z2 aerobic 60min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 38,
+      "duration_hours": 0.55,
+      "duration_formatted": "33m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "PatternRx \ubcc4\ub3c4 4\uc8fc \ucc98\ubc29 \u00b7 CP/VT2 190W \u00b7 VT1 137W \u00b7 MAP 255W\n\uc8fc\uac04 \ubd80\ud558 \ud68c\ubcf5\uc744 \uc704\ud55c \uc800\uac15\ub3c4 \ubcfc\ub968\n\ud30c\uc6cc \uad6c\uc870: main 120W"
     },
     {
       "id": 120615755,
@@ -2480,6 +2635,18 @@
       "has_terrain": false
     },
     {
+      "id": 125342992,
+      "date": "2026-08-11",
+      "name": "PatternRx W3 Tue \u00b7 VO2 W\u2032bal-safe 4\u00d76\u00d730/15",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 56,
+      "duration_hours": 0.85,
+      "duration_formatted": "51m",
+      "workout_summary": "3m @85W | 3m @100W | 3m @115W | 3m @130W | 4 \u00d7 6\u00d730s @230W / 15s rec | 3m @110W | 3m @95W | 3m @80W",
+      "has_terrain": false
+    },
+    {
       "id": 120615757,
       "date": "2026-08-13",
       "name": "W6[POL] Thu \u00b7 VO2 4\u00d74 @92%MAP +1\ub819",
@@ -2490,6 +2657,19 @@
       "duration_formatted": "1h31m48s",
       "workout_summary": "2m52s @95W | 2m52s @106W | 2m52s @118W | 2m52s @129W | 2m52s @141W | 5\u00d74m @234W / 9m12s rec | 2m52s @114W | 2m52s @103W | 2m52s @91W | 2m52s @80W",
       "has_terrain": false
+    },
+    {
+      "id": 125342993,
+      "date": "2026-08-13",
+      "name": "PatternRx W3 Thu \u00b7 Z2 economy 70min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 44,
+      "duration_hours": 1.05,
+      "duration_formatted": "1h3m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "PatternRx \ubcc4\ub3c4 4\uc8fc \ucc98\ubc29 \u00b7 CP/VT2 190W \u00b7 VT1 137W \u00b7 MAP 255W\nquality \ud761\uc218\uc6a9 \uc800\uac15\ub3c4\n\ud30c\uc6cc \uad6c\uc870: main 120W"
     },
     {
       "id": 120615759,
@@ -2505,6 +2685,19 @@
       "description_preview": "\uc720\uc0b0\uc18c \uae30\ubc18(\uc9e7\uc740\ube14\ub7ed) \u2014 CP-anchored (CP/VT2=190W \u00b7 MAP=255W)\nWarmup \u2934 \uc810\uc9c4 \uc0c1\uc2b9\n- 2m 75W"
     },
     {
+      "id": 125342997,
+      "date": "2026-08-15",
+      "name": "PatternRx W3 Sat \u00b7 Pattern Long Z2 110min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 68,
+      "duration_hours": 1.72,
+      "duration_formatted": "1h43m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "PatternRx \ubcc4\ub3c4 4\uc8fc \ucc98\ubc29 \u00b7 CP/VT2 190W \u00b7 VT1 137W \u00b7 MAP 255W\n\ucd5c\uadfc \uc644\uc218 \ubc94\uc704\uc5d0\uc11c 95\u2192105\u2192110\ubd84\uc73c\ub85c \ud655\uc7a5; \uace0\uac15\ub3c4 \ud53c\ub2c8\uc154 \uc5c6\uc74c\n\ud30c\uc6cc \uad6c\uc870: main 115\u2013120W"
+    },
+    {
       "id": 120615760,
       "date": "2026-08-16",
       "name": "W6[POL] Sun \u00b7 Long 150min (ARGO plan)",
@@ -2516,6 +2709,19 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": "\uc9c0\ubc29 durability \u2014 CP-anchored (CP/VT2=190W \u00b7 MAP=255W)\nWarmup \u2934 \uc810\uc9c4 \uc0c1\uc2b9\n- 2m 75W"
+    },
+    {
+      "id": 125342999,
+      "date": "2026-08-16",
+      "name": "PatternRx W3 Sun \u00b7 Z2 aerobic 60min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 38,
+      "duration_hours": 0.55,
+      "duration_formatted": "33m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "PatternRx \ubcc4\ub3c4 4\uc8fc \ucc98\ubc29 \u00b7 CP/VT2 190W \u00b7 VT1 137W \u00b7 MAP 255W\n\uc8fc\uac04 \ubd80\ud558\ub97c \ucd5c\uadfc \ud3c9\uade0\uae4c\uc9c0 \ud68c\ubcf5\n\ud30c\uc6cc \uad6c\uc870: main 120W"
     },
     {
       "id": 120615761,
@@ -2543,6 +2749,19 @@
       "has_terrain": false
     },
     {
+      "id": 125343000,
+      "date": "2026-08-18",
+      "name": "PatternRx W4 Tue \u00b7 Deload Z2 50min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 29,
+      "duration_hours": 0.8,
+      "duration_formatted": "48m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "PatternRx \ubcc4\ub3c4 4\uc8fc \ucc98\ubc29 \u00b7 CP/VT2 190W \u00b7 VT1 137W \u00b7 MAP 255W\n\ud761\uc218 \uc8fc\uac04 \uc800\uac15\ub3c4\n\ud30c\uc6cc \uad6c\uc870: main 115W"
+    },
+    {
       "id": 120615764,
       "date": "2026-08-20",
       "name": "W7[POL] Thu \u00b7 VO2 6\u00d73 @93%MAP +2\ub819",
@@ -2552,6 +2771,18 @@
       "duration_hours": 1.6,
       "duration_formatted": "1h35m48s",
       "workout_summary": "2m52s @95W | 2m52s @106W | 2m52s @118W | 2m52s @129W | 2m52s @141W | 8\u00d73m @232W / 5m45s rec | 2m52s @114W | 2m52s @103W | 2m52s @91W | 2m52s @80W",
+      "has_terrain": false
+    },
+    {
+      "id": 125343001,
+      "date": "2026-08-20",
+      "name": "PatternRx W4 Thu \u00b7 Z2 cadence economy check 70/80/70",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 29,
+      "duration_hours": 0.8,
+      "duration_formatted": "48m",
+      "workout_summary": "2m @80W | 2m @95W | 2m @105W | 2m @115W | 7m @115W | 3\u00d78m @120W / 3m rec | 2m30s @85W",
       "has_terrain": false
     },
     {
@@ -2568,6 +2799,19 @@
       "description_preview": "\uc720\uc0b0\uc18c \uae30\ubc18(\uc9e7\uc740\ube14\ub7ed) \u2014 CP-anchored (CP/VT2=190W \u00b7 MAP=255W)\nWarmup \u2934 \uc810\uc9c4 \uc0c1\uc2b9\n- 2m 75W"
     },
     {
+      "id": 125343002,
+      "date": "2026-08-22",
+      "name": "PatternRx W4 Sat \u00b7 Pattern Long Z2 80min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 49,
+      "duration_hours": 1.3,
+      "duration_formatted": "1h18m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "PatternRx \ubcc4\ub3c4 4\uc8fc \ucc98\ubc29 \u00b7 CP/VT2 190W \u00b7 VT1 137W \u00b7 MAP 255W\n\ucd5c\uadfc \uc644\uc218 \ubc94\uc704\uc5d0\uc11c 90\u219295\u2192105\ubd84\uc73c\ub85c \ud655\uc7a5; \uace0\uac15\ub3c4 \ud53c\ub2c8\uc154 \uc5c6\uc74c\n\ud30c\uc6cc \uad6c\uc870: main 115\u2013120W"
+    },
+    {
       "id": 120615768,
       "date": "2026-08-23",
       "name": "W7[POL] Sun \u00b7 Long 150min (ARGO plan)",
@@ -2579,6 +2823,19 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": "\uc9c0\ubc29 durability \u2014 CP-anchored (CP/VT2=190W \u00b7 MAP=255W)\nWarmup \u2934 \uc810\uc9c4 \uc0c1\uc2b9\n- 2m 75W"
+    },
+    {
+      "id": 125344344,
+      "date": "2026-08-23",
+      "name": "PatternRx W4 Sun \u00b7 Deload Z2 aerobic 60min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 38,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "PatternRx \ubcc4\ub3c4 4\uc8fc \ucc98\ubc29 \u00b7 CP/VT2 190W \u00b7 VT1 137W \u00b7 MAP 255W\n\ub514\ub85c\ub4dc \ubd80\ud558 \ud558\ud55c\uc744 \uc720\uc9c0\ud558\ub294 \uc800\uac15\ub3c4\n\ud30c\uc6cc \uad6c\uc870: main 120W"
     },
     {
       "id": 120615769,
@@ -2710,12 +2967,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 28,
-    "success": 9,
+    "attempted": 48,
+    "success": 12,
     "patternA": 0,
-    "patternB": 9,
+    "patternB": 12,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 19
+    "bail_no_match": 36
   },
   "weekly_summary": {
     "total_training_hours": 5.58,
