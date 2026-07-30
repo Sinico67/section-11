@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-30T03:57:57.218707",
+    "last_updated": "2026-07-30T06:35:13.019134",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -594,13 +594,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 3.41,
+          "planned_tss_delta": 2.59,
           "hard_sessions_planned": 3,
           "current_week_hard_days_completed": 1,
           "current_week_hard_days_total": 4,
           "race_proximity": null,
           "next_week_load": 2.12,
-          "plan_coverage_current_week": 1.8,
+          "plan_coverage_current_week": 1.4,
           "plan_coverage_next_week": 1.6
         },
         "data_quality": "good",
@@ -634,13 +634,13 @@
     "p_max": 681,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-30T03:57:57.217485",
+    "calculation_timestamp": "2026-07-30T06:35:13.018095",
     "data_quality": {
       "hrv_data_points": 1,
       "rhr_data_points": 7,
       "activities_7d": 4,
       "activities_28d": 18,
-      "planned_workouts_7d": 7,
+      "planned_workouts_7d": 6,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -2364,30 +2364,17 @@
       "description": "\ub871 \uc5ed\uce58 3\u00d712 \u2014 CP-anchored (CP/VT2=190W \u00b7 MAP=255W)\nWarmup \u2934 \uc810\uc9c4 \uc0c1\uc2b9\n- 2m30s 95W\n- 2m30s 106W\n- 2m30s 118W\n- 2m30s 129W\n- 2m30s 141W\n- 12m 184W\n- 5m 95W\n- 12m 184W\n- 5m 95W\n- 12m 184W\n- 5m 95W\nCooldown \u2935 \uc810\uc9c4 \ud558\uac15\n- 2m30s 114W\n- 2m30s 103W\n- 2m30s 91W\n- 2m30s 80W"
     },
     {
-      "id": 125342979,
-      "date": "2026-07-30",
-      "name": "PatternRx W1 Thu \u00b7 Z2 economy 60min",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 38,
-      "duration_hours": 0.97,
-      "duration_formatted": "58m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "PatternRx \ubcc4\ub3c4 4\uc8fc \ucc98\ubc29 \u00b7 CP/VT2 190W \u00b7 VT1 137W \u00b7 MAP 255W\n\ud655\uc778\ub41c true-Z2 120W; \uc790\uc5f0 \ud638\ud761\n\ud30c\uc6cc \uad6c\uc870: main 120W\n\ucf00\uc774\ub358\uc2a4: 68\u201375rpm\n\uc9c4\ud589 \uc870\uac74: \uc9c1\uc804 \uc8fc \uc774\ud589\ub960 80% \uc774\uc0c1 \u00b7 \uc911\ub2e8 \uaddc\uce59 \uc0ac\uac74 \uc5c6\uc74c \u00b7 quality \ubaa9\ud45c \ubbf8\ub2ec 2\ud68c \uc5f0\uc18d \uc5c6\uc74c\n\nWorkout\nWarmup\n- 2m 80W\n- 2m 95W\n- 2m 105W\n- 2m 115W\n- 10m 120W\n- 10m 120W\n- 10m 120W\n- 10m 120W\n- 7m 120W\n- 2m30s 100W\n- 2m30s 85W\n\n\uc911\ub2e8 \uaddc\uce59\n- \ud749\ud1b5, \uc2e4\uc2e0 \uc804 \ub290\ub08c, \ube44\uc815\uc0c1 \ud638\ud761\uace4\ub780, \uc0c8\ub85c \ubc1c\uc0dd\ud55c \uc2ec\uacc4\ud56d\uc9c4\uc774 \uc788\uc73c\uba74 \uc989\uc2dc \uc911\ub2e8\ud558\uace0 \uc758\ub8cc \ud3c9\uac00\n- W1 \ud53c\ub85c\uac00 \ud574\uc18c\ub418\uc9c0 \uc54a\uac70\ub098 \ub450 \uc138\uc158 \uc5f0\uc18d RPE\uac00 \uc758\ub3c4\ubcf4\ub2e4 2 \uc774\uc0c1 \ub192\uc73c\uba74 \ub2e4\uc74c quality\ub97c Z2 45\ubd84\uc73c\ub85c \ub300\uccb4\n- VO2 \ub819 \ud30c\uc6cc\uac00 \ub450 \ub819 \uc5f0\uc18d \ubaa9\ud45c\uc758 90% \uc544\ub798\ub85c \ub5a8\uc5b4\uc9c0\uba74 \ub0a8\uc740 \ub819\uc744 \uc911\ub2e8\ud558\uace0 \ucfe8\ub2e4\uc6b4\n- \ud1b5\uc99d\uc774 \ubcf4\ud589 \ub610\ub294 \ud398\ub2ec\ub9c1 \ud328\ud134\uc744 \ubc14\uafb8\uba74 \ud574\ub2f9 \uc138\uc158 \uc911\ub2e8\n\nARGO Rx4: non-binding shadow \u00b7 gate blocked\n\uae30\uc874 \uce98\ub9b0\ub354 \ud50c\ub79c\uacfc \ubcc4\ub3c4 \uc5c5\ub85c\ub4dc\ub41c PatternRx \ucc98\ubc29"
-    },
-    {
       "id": 125347943,
       "date": "2026-07-30",
       "name": "ARGO-PILOT W1 \u00b7 Z2 economy 60min \u00b7 hold",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 37,
+      "planned_tss": 32,
       "duration_hours": 0.0,
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "ARGO-Rx4 prospective shadow pilot \u00b7 \ucf54\uce58 \uc218\ub77d\uc548\n\uc575\ucee4: VT1 134W \u00b7 AT 179W \u00b7 MAP 211W \u00b7 cad_ref 84rpm\n\uc138\uc158: \ud655\uc778\ub41c true-Z2 120W; \uc790\uc5f0 \ud638\ud761\n\ud30c\uc6cc \uad6c\uc870: main 120W\n\uba54\uc778 \ucf00\uc774\ub358\uc2a4: 72rpm \ucc98\ubc29 \u00b7 \uc790\uc5f0 \ud638\ud761\nshadow card YD-20260727-W01-THU-BASE \u00b7 candidate cand-04654860a7b3 \u00b7 card sha bd8dea5c97dfd44aa48bd2df21bb982e8a1e81443142ac04ede9283e55401fea\n\uae30\uc874 \uce98\ub9b0\ub354\uc640 \uc911\ubcf5 \ud45c\uc2dc\ub420 \uc218 \uc788\uc74c. \uac19\uc740 \ub0a0\uc9dc\uc758 \uacb9\uce58\ub294 \ucc98\ubc29\uc744 \ubaa8\ub450 \uc218\ud589\ud558\uc9c0 \ub9d0\uace0 \ucf54\uce58\uac00 \uc9c0\uc815\ud55c 1\uac1c\ub9cc \uc218\ud589.\n\nWorkout\nWarmup\n- 2m 80W 84rpm\n- 2m 95W 84rpm\n- 2m 105W 84rpm\n- 2m 115W 84rpm\n- 10m 120W 72rpm\n- 10m 120W 72rpm\n- 10m 120W 72rpm\n- 10m 120W 72rpm\n- 7m 120W 72rpm\n- 2.5m 100W 84rpm\n- 2.5m 85W 84rpm\n\n\uc911\ub2e8 \uaddc\uce59\n- \ud749\ud1b5, \uc2e4\uc2e0 \uc804 \ub290\ub08c, \ube44\uc815\uc0c1 \ud638\ud761\uace4\ub780, \uc0c8 \uc2ec\uacc4\ud56d\uc9c4\uc774 \uc788\uc73c\uba74 \uc989\uc2dc \uc911\ub2e8\ud558\uace0 \uc758\ub8cc \ud3c9\uac00\n- \ud53c\ub85c\uac00 \ud574\uc18c\ub418\uc9c0 \uc54a\uac70\ub098 \ub450 \uc138\uc158 \uc5f0\uc18d RPE\uac00 \uc758\ub3c4\ubcf4\ub2e4 2 \uc774\uc0c1 \ub192\uc73c\uba74 \ub2e4\uc74c \uc138\uc158\uc744 Z2 45\ubd84 \uc774\ud558\ub85c \ucd95\uc18c\n- \ud1b5\uc99d\uc774 \ubcf4\ud589 \ub610\ub294 \ud398\ub2ec\ub9c1 \ud328\ud134\uc744 \ubc14\uafb8\uba74 \ud574\ub2f9 \uc138\uc158 \uc911\ub2e8\n\n\uc5d4\uc9c4 \uad8c\ud55c: NON_BINDING SHADOW_ONLY\n\uc2e4\uc81c \ucc98\ubc29 \uc18c\uc720\uc790: \ucf54\uce58 \ubc0f \uae30\uc874 \ucc98\ubc29 \ud30c\uc774\ud504\ub77c\uc778"
+      "description": "\ud65c\uc131 \ucc98\ubc29 namespace: fzcare-argo-shadowpilot\nIntervals \uc0ac\uc774\ud074\ub9c1 FTP: 204 W \u00b7 sport setting 176821\nnamespace \uc2b9\uc778 SHA-256: 90cd10012232759ddb456126fdd11db290c9ca235db384a415980c718838db68\nPUT \uc2b9\uc778 SHA-256: 2ff5c45ea8c5124843411c95e8bc2aaafd5e935e862d4a34653abeece80a20be\n\uac19\uc740 \ub0a0\uc9dc\uc758 zelia\u00b7fzcare-patternrx \ucc98\ubc29\uc740 \uc218\ud589 \ub300\uc0c1\uc774 \uc544\ub2d8.\n\nARGO-Rx4 prospective shadow pilot \u00b7 \ucf54\uce58 \uc218\ub77d\uc548\n\uc575\ucee4: VT1 134W \u00b7 AT 179W \u00b7 MAP 211W \u00b7 cad_ref 84rpm\n\uc138\uc158: \ud655\uc778\ub41c true-Z2 120W; \uc790\uc5f0 \ud638\ud761\n\ud30c\uc6cc \uad6c\uc870: main 120W\n\uba54\uc778 \ucf00\uc774\ub358\uc2a4: 72rpm \ucc98\ubc29 \u00b7 \uc790\uc5f0 \ud638\ud761\nshadow card YD-20260727-W01-THU-BASE \u00b7 candidate cand-04654860a7b3 \u00b7 card sha bd8dea5c97dfd44aa48bd2df21bb982e8a1e81443142ac04ede9283e55401fea\n\uae30\uc874 \uce98\ub9b0\ub354\uc640 \uc911\ubcf5 \ud45c\uc2dc\ub420 \uc218 \uc788\uc74c. \uac19\uc740 \ub0a0\uc9dc\uc758 \uacb9\uce58\ub294 \ucc98\ubc29\uc744 \ubaa8\ub450 \uc218\ud589\ud558\uc9c0 \ub9d0\uace0 \ucf54\uce58\uac00 \uc9c0\uc815\ud55c 1\uac1c\ub9cc \uc218\ud589.\n\nWorkout\nWarmup\n- 2m 80W 84rpm\n- 2m 95W 84rpm\n- 2m 105W 84rpm\n- 2m 115W 84rpm\n- 10m 120W 72rpm\n- 10m 120W 72rpm\n- 10m 120W 72rpm\n- 10m 120W 72rpm\n- 7m 120W 72rpm\n- 2.5m 100W 84rpm\n- 2.5m 85W 84rpm\n\n\uc911\ub2e8 \uaddc\uce59\n- \ud749\ud1b5, \uc2e4\uc2e0 \uc804 \ub290\ub08c, \ube44\uc815\uc0c1 \ud638\ud761\uace4\ub780, \uc0c8 \uc2ec\uacc4\ud56d\uc9c4\uc774 \uc788\uc73c\uba74 \uc989\uc2dc \uc911\ub2e8\ud558\uace0 \uc758\ub8cc \ud3c9\uac00\n- \ud53c\ub85c\uac00 \ud574\uc18c\ub418\uc9c0 \uc54a\uac70\ub098 \ub450 \uc138\uc158 \uc5f0\uc18d RPE\uac00 \uc758\ub3c4\ubcf4\ub2e4 2 \uc774\uc0c1 \ub192\uc73c\uba74 \ub2e4\uc74c \uc138\uc158\uc744 Z2 45\ubd84 \uc774\ud558\ub85c \ucd95\uc18c\n- \ud1b5\uc99d\uc774 \ubcf4\ud589 \ub610\ub294 \ud398\ub2ec\ub9c1 \ud328\ud134\uc744 \ubc14\uafb8\uba74 \ud574\ub2f9 \uc138\uc158 \uc911\ub2e8\n\n\uc5d4\uc9c4 \uad8c\ud55c: NON_BINDING SHADOW_ONLY\n\uc2e4\uc81c \ucc98\ubc29 \uc18c\uc720\uc790: \ucf54\uce58 \ubc0f \uae30\uc874 \ucc98\ubc29 \ud30c\uc774\ud504\ub77c\uc778"
     },
     {
       "id": 120615745,
@@ -2403,30 +2390,17 @@
       "description": "\uc720\uc0b0\uc18c \uae30\ubc18(\uc9e7\uc740\ube14\ub7ed) \u2014 CP-anchored (CP/VT2=190W \u00b7 MAP=255W)\nWarmup \u2934 \uc810\uc9c4 \uc0c1\uc2b9\n- 2m 75W\n- 2m 93W\n- 2m 112W\n- 2m 126W\n- 10m 130W\n- 10m 137W\n- 10m 130W\nCooldown \u2935 \uc810\uc9c4 \ud558\uac15\n- 9m 137W\n- 2m30s 107W\n- 2m30s 81W"
     },
     {
-      "id": 125342982,
-      "date": "2026-08-01",
-      "name": "PatternRx W1 Sat \u00b7 Pattern Long Z2 95min",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 59,
-      "duration_hours": 1.47,
-      "duration_formatted": "1h28m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "PatternRx \ubcc4\ub3c4 4\uc8fc \ucc98\ubc29 \u00b7 CP/VT2 190W \u00b7 VT1 137W \u00b7 MAP 255W\n\ucd5c\uadfc \uc644\uc218 \ubc94\uc704\uc5d0\uc11c 95\u2192105\u2192110\ubd84\uc73c\ub85c \ud655\uc7a5; \uace0\uac15\ub3c4 \ud53c\ub2c8\uc154 \uc5c6\uc74c\n\ud30c\uc6cc \uad6c\uc870: main 115\u2013120W\n\ucf00\uc774\ub358\uc2a4: 68\u201375rpm\n\uc9c4\ud589 \uc870\uac74: \uc9c1\uc804 \uc8fc \uc774\ud589\ub960 80% \uc774\uc0c1 \u00b7 \uc911\ub2e8 \uaddc\uce59 \uc0ac\uac74 \uc5c6\uc74c \u00b7 quality \ubaa9\ud45c \ubbf8\ub2ec 2\ud68c \uc5f0\uc18d \uc5c6\uc74c\n\nWorkout\nWarmup\n- 2m 80W\n- 2m 95W\n- 2m 105W\n- 2m 115W\n- 10m 115W\n- 10m 120W\n- 10m 115W\n- 10m 120W\n- 10m 115W\n- 10m 120W\n- 10m 115W\n- 10m 120W\n- 2m 115W\n- 2m30s 100W\n- 2m30s 85W\n\n\uc911\ub2e8 \uaddc\uce59\n- \ud749\ud1b5, \uc2e4\uc2e0 \uc804 \ub290\ub08c, \ube44\uc815\uc0c1 \ud638\ud761\uace4\ub780, \uc0c8\ub85c \ubc1c\uc0dd\ud55c \uc2ec\uacc4\ud56d\uc9c4\uc774 \uc788\uc73c\uba74 \uc989\uc2dc \uc911\ub2e8\ud558\uace0 \uc758\ub8cc \ud3c9\uac00\n- W1 \ud53c\ub85c\uac00 \ud574\uc18c\ub418\uc9c0 \uc54a\uac70\ub098 \ub450 \uc138\uc158 \uc5f0\uc18d RPE\uac00 \uc758\ub3c4\ubcf4\ub2e4 2 \uc774\uc0c1 \ub192\uc73c\uba74 \ub2e4\uc74c quality\ub97c Z2 45\ubd84\uc73c\ub85c \ub300\uccb4\n- VO2 \ub819 \ud30c\uc6cc\uac00 \ub450 \ub819 \uc5f0\uc18d \ubaa9\ud45c\uc758 90% \uc544\ub798\ub85c \ub5a8\uc5b4\uc9c0\uba74 \ub0a8\uc740 \ub819\uc744 \uc911\ub2e8\ud558\uace0 \ucfe8\ub2e4\uc6b4\n- \ud1b5\uc99d\uc774 \ubcf4\ud589 \ub610\ub294 \ud398\ub2ec\ub9c1 \ud328\ud134\uc744 \ubc14\uafb8\uba74 \ud574\ub2f9 \uc138\uc158 \uc911\ub2e8\n\nARGO Rx4: non-binding shadow \u00b7 gate blocked\n\uae30\uc874 \uce98\ub9b0\ub354 \ud50c\ub79c\uacfc \ubcc4\ub3c4 \uc5c5\ub85c\ub4dc\ub41c PatternRx \ucc98\ubc29"
-    },
-    {
       "id": 125347944,
       "date": "2026-08-01",
       "name": "ARGO-PILOT W1 \u00b7 Long Z2 95min",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 58,
+      "planned_tss": 51,
       "duration_hours": 0.0,
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "ARGO-Rx4 prospective shadow pilot \u00b7 \ucf54\uce58 \uc218\ub77d\uc548\n\uc575\ucee4: VT1 134W \u00b7 AT 179W \u00b7 MAP 211W \u00b7 cad_ref 84rpm\n\uc138\uc158: \ucd5c\uadfc \uc7a5\uac70\ub9ac \uc644\uc218 \ubc94\uc704 \uc548\uc5d0\uc11c \uc720\uc9c0; \uace0\uac15\ub3c4 \ud53c\ub2c8\uc154 \uc5c6\uc74c\n\ud30c\uc6cc \uad6c\uc870: main 115\u2013120W\n\uba54\uc778 \ucf00\uc774\ub358\uc2a4: 72rpm \ucc98\ubc29 \u00b7 \uc790\uc5f0 \ud638\ud761\nshadow card YD-20260727-W01-SAT-LONG \u00b7 candidate cand-f6804e166470 \u00b7 card sha 93a6b84eda9adf90055c4ffd97bff99ffc1ae0d44043b77e49571e483fd530b2\n\uae30\uc874 \uce98\ub9b0\ub354\uc640 \uc911\ubcf5 \ud45c\uc2dc\ub420 \uc218 \uc788\uc74c. \uac19\uc740 \ub0a0\uc9dc\uc758 \uacb9\uce58\ub294 \ucc98\ubc29\uc744 \ubaa8\ub450 \uc218\ud589\ud558\uc9c0 \ub9d0\uace0 \ucf54\uce58\uac00 \uc9c0\uc815\ud55c 1\uac1c\ub9cc \uc218\ud589.\n\nWorkout\nWarmup\n- 2m 80W 84rpm\n- 2m 95W 84rpm\n- 2m 105W 84rpm\n- 2m 115W 84rpm\n- 10m 115W 72rpm\n- 10m 120W 72rpm\n- 10m 115W 72rpm\n- 10m 120W 72rpm\n- 10m 115W 72rpm\n- 10m 120W 72rpm\n- 10m 115W 72rpm\n- 10m 120W 72rpm\n- 2m 115W 72rpm\n- 2.5m 100W 84rpm\n- 2.5m 85W 84rpm\n\n\uc911\ub2e8 \uaddc\uce59\n- \ud749\ud1b5, \uc2e4\uc2e0 \uc804 \ub290\ub08c, \ube44\uc815\uc0c1 \ud638\ud761\uace4\ub780, \uc0c8 \uc2ec\uacc4\ud56d\uc9c4\uc774 \uc788\uc73c\uba74 \uc989\uc2dc \uc911\ub2e8\ud558\uace0 \uc758\ub8cc \ud3c9\uac00\n- \ud53c\ub85c\uac00 \ud574\uc18c\ub418\uc9c0 \uc54a\uac70\ub098 \ub450 \uc138\uc158 \uc5f0\uc18d RPE\uac00 \uc758\ub3c4\ubcf4\ub2e4 2 \uc774\uc0c1 \ub192\uc73c\uba74 \ub2e4\uc74c \uc138\uc158\uc744 Z2 45\ubd84 \uc774\ud558\ub85c \ucd95\uc18c\n- \ud1b5\uc99d\uc774 \ubcf4\ud589 \ub610\ub294 \ud398\ub2ec\ub9c1 \ud328\ud134\uc744 \ubc14\uafb8\uba74 \ud574\ub2f9 \uc138\uc158 \uc911\ub2e8\n\n\uc5d4\uc9c4 \uad8c\ud55c: NON_BINDING SHADOW_ONLY\n\uc2e4\uc81c \ucc98\ubc29 \uc18c\uc720\uc790: \ucf54\uce58 \ubc0f \uae30\uc874 \ucc98\ubc29 \ud30c\uc774\ud504\ub77c\uc778"
+      "description": "\ud65c\uc131 \ucc98\ubc29 namespace: fzcare-argo-shadowpilot\nIntervals \uc0ac\uc774\ud074\ub9c1 FTP: 204 W \u00b7 sport setting 176821\nnamespace \uc2b9\uc778 SHA-256: 90cd10012232759ddb456126fdd11db290c9ca235db384a415980c718838db68\nPUT \uc2b9\uc778 SHA-256: 2ff5c45ea8c5124843411c95e8bc2aaafd5e935e862d4a34653abeece80a20be\n\uac19\uc740 \ub0a0\uc9dc\uc758 zelia\u00b7fzcare-patternrx \ucc98\ubc29\uc740 \uc218\ud589 \ub300\uc0c1\uc774 \uc544\ub2d8.\n\nARGO-Rx4 prospective shadow pilot \u00b7 \ucf54\uce58 \uc218\ub77d\uc548\n\uc575\ucee4: VT1 134W \u00b7 AT 179W \u00b7 MAP 211W \u00b7 cad_ref 84rpm\n\uc138\uc158: \ucd5c\uadfc \uc7a5\uac70\ub9ac \uc644\uc218 \ubc94\uc704 \uc548\uc5d0\uc11c \uc720\uc9c0; \uace0\uac15\ub3c4 \ud53c\ub2c8\uc154 \uc5c6\uc74c\n\ud30c\uc6cc \uad6c\uc870: main 115\u2013120W\n\uba54\uc778 \ucf00\uc774\ub358\uc2a4: 72rpm \ucc98\ubc29 \u00b7 \uc790\uc5f0 \ud638\ud761\nshadow card YD-20260727-W01-SAT-LONG \u00b7 candidate cand-f6804e166470 \u00b7 card sha 93a6b84eda9adf90055c4ffd97bff99ffc1ae0d44043b77e49571e483fd530b2\n\uae30\uc874 \uce98\ub9b0\ub354\uc640 \uc911\ubcf5 \ud45c\uc2dc\ub420 \uc218 \uc788\uc74c. \uac19\uc740 \ub0a0\uc9dc\uc758 \uacb9\uce58\ub294 \ucc98\ubc29\uc744 \ubaa8\ub450 \uc218\ud589\ud558\uc9c0 \ub9d0\uace0 \ucf54\uce58\uac00 \uc9c0\uc815\ud55c 1\uac1c\ub9cc \uc218\ud589.\n\nWorkout\nWarmup\n- 2m 80W 84rpm\n- 2m 95W 84rpm\n- 2m 105W 84rpm\n- 2m 115W 84rpm\n- 10m 115W 72rpm\n- 10m 120W 72rpm\n- 10m 115W 72rpm\n- 10m 120W 72rpm\n- 10m 115W 72rpm\n- 10m 120W 72rpm\n- 10m 115W 72rpm\n- 10m 120W 72rpm\n- 2m 115W 72rpm\n- 2.5m 100W 84rpm\n- 2.5m 85W 84rpm\n\n\uc911\ub2e8 \uaddc\uce59\n- \ud749\ud1b5, \uc2e4\uc2e0 \uc804 \ub290\ub08c, \ube44\uc815\uc0c1 \ud638\ud761\uace4\ub780, \uc0c8 \uc2ec\uacc4\ud56d\uc9c4\uc774 \uc788\uc73c\uba74 \uc989\uc2dc \uc911\ub2e8\ud558\uace0 \uc758\ub8cc \ud3c9\uac00\n- \ud53c\ub85c\uac00 \ud574\uc18c\ub418\uc9c0 \uc54a\uac70\ub098 \ub450 \uc138\uc158 \uc5f0\uc18d RPE\uac00 \uc758\ub3c4\ubcf4\ub2e4 2 \uc774\uc0c1 \ub192\uc73c\uba74 \ub2e4\uc74c \uc138\uc158\uc744 Z2 45\ubd84 \uc774\ud558\ub85c \ucd95\uc18c\n- \ud1b5\uc99d\uc774 \ubcf4\ud589 \ub610\ub294 \ud398\ub2ec\ub9c1 \ud328\ud134\uc744 \ubc14\uafb8\uba74 \ud574\ub2f9 \uc138\uc158 \uc911\ub2e8\n\n\uc5d4\uc9c4 \uad8c\ud55c: NON_BINDING SHADOW_ONLY\n\uc2e4\uc81c \ucc98\ubc29 \uc18c\uc720\uc790: \ucf54\uce58 \ubc0f \uae30\uc874 \ucc98\ubc29 \ud30c\uc774\ud504\ub77c\uc778"
     },
     {
       "id": 120615746,
@@ -2460,12 +2434,12 @@
       "name": "ARGO-PILOT W1 \u00b7 Z2 aerobic 50min \u00b7 hold",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 31,
+      "planned_tss": 27,
       "duration_hours": 0.0,
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "ARGO-Rx4 prospective shadow pilot \u00b7 \ucf54\uce58 \uc218\ub77d\uc548\n\uc575\ucee4: VT1 134W \u00b7 AT 179W \u00b7 MAP 211W \u00b7 cad_ref 84rpm\n\uc138\uc158: \ud761\uc218 \uc8fc\uac04 \uc800\uac15\ub3c4 \ubcfc\ub968\n\ud30c\uc6cc \uad6c\uc870: main 120W\n\uba54\uc778 \ucf00\uc774\ub358\uc2a4: 72rpm \ucc98\ubc29 \u00b7 \uc790\uc5f0 \ud638\ud761\nshadow card YD-20260727-W01-SUN-BASE \u00b7 candidate cand-2d762d504856 \u00b7 card sha b3241f7ce6b8df0eba56aeeb7490f9984308ea3a1d78794af8f402a9e3c01ada\n\uae30\uc874 \uce98\ub9b0\ub354\uc640 \uc911\ubcf5 \ud45c\uc2dc\ub420 \uc218 \uc788\uc74c. \uac19\uc740 \ub0a0\uc9dc\uc758 \uacb9\uce58\ub294 \ucc98\ubc29\uc744 \ubaa8\ub450 \uc218\ud589\ud558\uc9c0 \ub9d0\uace0 \ucf54\uce58\uac00 \uc9c0\uc815\ud55c 1\uac1c\ub9cc \uc218\ud589.\n\nWorkout\nWarmup\n- 2m 80W 84rpm\n- 2m 95W 84rpm\n- 2m 105W 84rpm\n- 2m 115W 84rpm\n- 10m 120W 72rpm\n- 10m 120W 72rpm\n- 10m 120W 72rpm\n- 7m 120W 72rpm\n- 2.5m 100W 84rpm\n- 2.5m 85W 84rpm\n\n\uc911\ub2e8 \uaddc\uce59\n- \ud749\ud1b5, \uc2e4\uc2e0 \uc804 \ub290\ub08c, \ube44\uc815\uc0c1 \ud638\ud761\uace4\ub780, \uc0c8 \uc2ec\uacc4\ud56d\uc9c4\uc774 \uc788\uc73c\uba74 \uc989\uc2dc \uc911\ub2e8\ud558\uace0 \uc758\ub8cc \ud3c9\uac00\n- \ud53c\ub85c\uac00 \ud574\uc18c\ub418\uc9c0 \uc54a\uac70\ub098 \ub450 \uc138\uc158 \uc5f0\uc18d RPE\uac00 \uc758\ub3c4\ubcf4\ub2e4 2 \uc774\uc0c1 \ub192\uc73c\uba74 \ub2e4\uc74c \uc138\uc158\uc744 Z2 45\ubd84 \uc774\ud558\ub85c \ucd95\uc18c\n- \ud1b5\uc99d\uc774 \ubcf4\ud589 \ub610\ub294 \ud398\ub2ec\ub9c1 \ud328\ud134\uc744 \ubc14\uafb8\uba74 \ud574\ub2f9 \uc138\uc158 \uc911\ub2e8\n\n\uc5d4\uc9c4 \uad8c\ud55c: NON_BINDING SHADOW_ONLY\n\uc2e4\uc81c \ucc98\ubc29 \uc18c\uc720\uc790: \ucf54\uce58 \ubc0f \uae30\uc874 \ucc98\ubc29 \ud30c\uc774\ud504\ub77c\uc778"
+      "description": "\ud65c\uc131 \ucc98\ubc29 namespace: fzcare-argo-shadowpilot\nIntervals \uc0ac\uc774\ud074\ub9c1 FTP: 204 W \u00b7 sport setting 176821\nnamespace \uc2b9\uc778 SHA-256: 90cd10012232759ddb456126fdd11db290c9ca235db384a415980c718838db68\nPUT \uc2b9\uc778 SHA-256: 2ff5c45ea8c5124843411c95e8bc2aaafd5e935e862d4a34653abeece80a20be\n\uac19\uc740 \ub0a0\uc9dc\uc758 zelia\u00b7fzcare-patternrx \ucc98\ubc29\uc740 \uc218\ud589 \ub300\uc0c1\uc774 \uc544\ub2d8.\n\nARGO-Rx4 prospective shadow pilot \u00b7 \ucf54\uce58 \uc218\ub77d\uc548\n\uc575\ucee4: VT1 134W \u00b7 AT 179W \u00b7 MAP 211W \u00b7 cad_ref 84rpm\n\uc138\uc158: \ud761\uc218 \uc8fc\uac04 \uc800\uac15\ub3c4 \ubcfc\ub968\n\ud30c\uc6cc \uad6c\uc870: main 120W\n\uba54\uc778 \ucf00\uc774\ub358\uc2a4: 72rpm \ucc98\ubc29 \u00b7 \uc790\uc5f0 \ud638\ud761\nshadow card YD-20260727-W01-SUN-BASE \u00b7 candidate cand-2d762d504856 \u00b7 card sha b3241f7ce6b8df0eba56aeeb7490f9984308ea3a1d78794af8f402a9e3c01ada\n\uae30\uc874 \uce98\ub9b0\ub354\uc640 \uc911\ubcf5 \ud45c\uc2dc\ub420 \uc218 \uc788\uc74c. \uac19\uc740 \ub0a0\uc9dc\uc758 \uacb9\uce58\ub294 \ucc98\ubc29\uc744 \ubaa8\ub450 \uc218\ud589\ud558\uc9c0 \ub9d0\uace0 \ucf54\uce58\uac00 \uc9c0\uc815\ud55c 1\uac1c\ub9cc \uc218\ud589.\n\nWorkout\nWarmup\n- 2m 80W 84rpm\n- 2m 95W 84rpm\n- 2m 105W 84rpm\n- 2m 115W 84rpm\n- 10m 120W 72rpm\n- 10m 120W 72rpm\n- 10m 120W 72rpm\n- 7m 120W 72rpm\n- 2.5m 100W 84rpm\n- 2.5m 85W 84rpm\n\n\uc911\ub2e8 \uaddc\uce59\n- \ud749\ud1b5, \uc2e4\uc2e0 \uc804 \ub290\ub08c, \ube44\uc815\uc0c1 \ud638\ud761\uace4\ub780, \uc0c8 \uc2ec\uacc4\ud56d\uc9c4\uc774 \uc788\uc73c\uba74 \uc989\uc2dc \uc911\ub2e8\ud558\uace0 \uc758\ub8cc \ud3c9\uac00\n- \ud53c\ub85c\uac00 \ud574\uc18c\ub418\uc9c0 \uc54a\uac70\ub098 \ub450 \uc138\uc158 \uc5f0\uc18d RPE\uac00 \uc758\ub3c4\ubcf4\ub2e4 2 \uc774\uc0c1 \ub192\uc73c\uba74 \ub2e4\uc74c \uc138\uc158\uc744 Z2 45\ubd84 \uc774\ud558\ub85c \ucd95\uc18c\n- \ud1b5\uc99d\uc774 \ubcf4\ud589 \ub610\ub294 \ud398\ub2ec\ub9c1 \ud328\ud134\uc744 \ubc14\uafb8\uba74 \ud574\ub2f9 \uc138\uc158 \uc911\ub2e8\n\n\uc5d4\uc9c4 \uad8c\ud55c: NON_BINDING SHADOW_ONLY\n\uc2e4\uc81c \ucc98\ubc29 \uc18c\uc720\uc790: \ucf54\uce58 \ubc0f \uae30\uc874 \ucc98\ubc29 \ud30c\uc774\ud504\ub77c\uc778"
     },
     {
       "id": 120615747,
@@ -2953,12 +2927,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 47,
+    "attempted": 45,
     "success": 14,
     "patternA": 0,
     "patternB": 14,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 33
+    "bail_no_match": 31
   },
   "weekly_summary": {
     "total_training_hours": 5.89,
