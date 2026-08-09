@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-09T22:40:25.742097",
+    "last_updated": "2026-08-09T23:06:40.852530",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -133,7 +133,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -2.5
+        "value": 3.5
       }
     },
     "signal_summary": {
@@ -182,17 +182,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 23.2,
-      "atl": 25.71,
-      "tsb": -2.51,
-      "ramp_rate": 0.68,
+      "ctl": 21.7,
+      "atl": 18.21,
+      "tsb": 3.49,
+      "ramp_rate": -0.81,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 196.8,
-      "w_prime": 16445,
+      "eftp": 196.4,
+      "w_prime": 16412,
       "w_prime_kj": 16.4,
-      "p_max": 676,
+      "p_max": 675,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -557,7 +557,7 @@
           },
           "coverage_ratio": 0.86,
           "ftp_used": 200,
-          "w_prime_used": 16445,
+          "w_prime_used": 16412,
           "ftp_staleness_days": 0,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -628,13 +628,13 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 196.8,
-    "w_prime": 16445,
+    "eftp": 196.4,
+    "w_prime": 16412,
     "w_prime_kj": 16.4,
-    "p_max": 676,
+    "p_max": 675,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-09T22:40:25.740969",
+    "calculation_timestamp": "2026-08-09T23:06:40.851447",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
