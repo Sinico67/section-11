@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-22T04:06:56.786350",
+    "last_updated": "2026-08-22T04:49:50.750777",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -180,7 +180,7 @@
       "w_prime": 16281,
       "w_prime_kj": 16.3,
       "p_max": 669,
-      "vo2max": null,
+      "vo2max": 48.0,
       "sports": {
         "cycling": {
           "lthr": 168,
@@ -594,8 +594,8 @@
     "w_prime_kj": 16.3,
     "p_max": 669,
     "power_model_source": "wellness.sportInfo",
-    "vo2max": null,
-    "calculation_timestamp": "2026-08-22T04:06:56.785181",
+    "vo2max": 48.0,
+    "calculation_timestamp": "2026-08-22T04:49:50.749639",
     "data_quality": {
       "hrv_data_points": 2,
       "rhr_data_points": 5,
@@ -1814,7 +1814,7 @@
       "sleep_score": null,
       "mental_energy": null,
       "avg_sleeping_hr": null,
-      "vo2max": null,
+      "vo2max": 48.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
